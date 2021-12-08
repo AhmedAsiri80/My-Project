@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27C877E5BAE9897DCCBE94C7 /* Pods_AhmedSoloApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F273C778B331FDE8DAE9009A /* Pods_AhmedSoloApp.framework */; };
 		FC0369502753998300A37026 /* Mainnext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03694F2753998300A37026 /* Mainnext.swift */; };
 		FC15B2C32758F07000DD76BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC15B2C22758F07000DD76BB /* Assets.xcassets */; };
 		FC24476927562FBF005B0643 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC24476827562FBF005B0643 /* WebVC.swift */; };
 		FC2447722757493F005B0643 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2447712757493F005B0643 /* Views.swift */; };
 		FC36C98A275935500078CCAB /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC36C989275935500078CCAB /* song1.mp3 */; };
 		FC3A6639276095BC00E2BF9A /* QiblahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A6638276095BC00E2BF9A /* QiblahVC.swift */; };
+		FC3A663B2760CE0A00E2BF9A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A663A2760CE0A00E2BF9A /* LoginVC.swift */; };
+		FC3A663D2760CEB600E2BF9A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC3A663C2760CEB600E2BF9A /* GoogleService-Info.plist */; };
+		FC3A663F27610DCB00E2BF9A /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A663E27610DCB00E2BF9A /* AnimationVC.swift */; };
 		FC4F1A462754DE4100C9DC0F /* ReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A452754DE4100C9DC0F /* ReminderVC.swift */; };
 		FC4F1A482754DE6300C9DC0F /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A472754DE6300C9DC0F /* ReminderCell.swift */; };
 		FC4F1A58275598C300C9DC0F /* TasbihVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A57275598C300C9DC0F /* TasbihVC.swift */; };
@@ -33,6 +37,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20C0AEB930C261B18FE59B00 /* Pods-AhmedSoloApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AhmedSoloApp.release.xcconfig"; path = "Target Support Files/Pods-AhmedSoloApp/Pods-AhmedSoloApp.release.xcconfig"; sourceTree = "<group>"; };
+		BB31DCA4665576F8D2EF90D4 /* Pods-AhmedSoloApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AhmedSoloApp.debug.xcconfig"; path = "Target Support Files/Pods-AhmedSoloApp/Pods-AhmedSoloApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F273C778B331FDE8DAE9009A /* Pods_AhmedSoloApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AhmedSoloApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC03694F2753998300A37026 /* Mainnext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mainnext.swift; sourceTree = "<group>"; };
 		FC15B2C22758F07000DD76BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC24476627560662005B0643 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
@@ -40,6 +47,9 @@
 		FC2447712757493F005B0643 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 		FC36C989275935500078CCAB /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
 		FC3A6638276095BC00E2BF9A /* QiblahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblahVC.swift; sourceTree = "<group>"; };
+		FC3A663A2760CE0A00E2BF9A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FC3A663C2760CEB600E2BF9A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC3A663E27610DCB00E2BF9A /* AnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
 		FC45C0922754B52D00D09A9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		FC4F1A452754DE4100C9DC0F /* ReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderVC.swift; sourceTree = "<group>"; };
 		FC4F1A472754DE6300C9DC0F /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
@@ -68,12 +78,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C877E5BAE9897DCCBE94C7 /* Pods_AhmedSoloApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		548FF228F5E63974413A2CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F273C778B331FDE8DAE9009A /* Pods_AhmedSoloApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC40B277F303B37EA6457350 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB31DCA4665576F8D2EF90D4 /* Pods-AhmedSoloApp.debug.xcconfig */,
+				20C0AEB930C261B18FE59B00 /* Pods-AhmedSoloApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FC2447652755FCAD005B0643 /* section5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +172,8 @@
 		FC962DEB27538FB0006B84C7 = {
 			isa = PBXGroup;
 			children = (
+				FC3A663E27610DCB00E2BF9A /* AnimationVC.swift */,
+				FC3A663A2760CE0A00E2BF9A /* LoginVC.swift */,
 				FC3A6638276095BC00E2BF9A /* QiblahVC.swift */,
 				FC962DF627538FB0006B84C7 /* AhmedSoloApp */,
 				FC8E468C2753DFA500B6905D /* section1 */,
@@ -154,6 +184,8 @@
 				FC24476A275636EC005B0643 /* section6 */,
 				FC24477327575103005B0643 /* section7 */,
 				FC962DF527538FB0006B84C7 /* Products */,
+				AC40B277F303B37EA6457350 /* Pods */,
+				548FF228F5E63974413A2CCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +206,7 @@
 				FC962DFD27538FB0006B84C7 /* Main.storyboard */,
 				FC962E0227538FB0006B84C7 /* LaunchScreen.storyboard */,
 				FC962E0527538FB0006B84C7 /* Info.plist */,
+				FC3A663C2760CEB600E2BF9A /* GoogleService-Info.plist */,
 			);
 			path = AhmedSoloApp;
 			sourceTree = "<group>";
@@ -185,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC962E0827538FB0006B84C7 /* Build configuration list for PBXNativeTarget "AhmedSoloApp" */;
 			buildPhases = (
+				06A8A343C0BFAB9D394C8FAF /* [CP] Check Pods Manifest.lock */,
 				FC962DF027538FB0006B84C7 /* Sources */,
 				FC962DF127538FB0006B84C7 /* Frameworks */,
 				FC962DF227538FB0006B84C7 /* Resources */,
+				1DCA3ADC5C20003F67AD8C7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,11 +277,54 @@
 				FC962E0427538FB0006B84C7 /* LaunchScreen.storyboard in Resources */,
 				FC7E38CB2753F64E00AEAF5D /* song2.mp3 in Resources */,
 				FC962DFF27538FB0006B84C7 /* Main.storyboard in Resources */,
+				FC3A663D2760CEB600E2BF9A /* GoogleService-Info.plist in Resources */,
 				FC15B2C32758F07000DD76BB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06A8A343C0BFAB9D394C8FAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AhmedSoloApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DCA3ADC5C20003F67AD8C7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AhmedSoloApp/Pods-AhmedSoloApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AhmedSoloApp/Pods-AhmedSoloApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AhmedSoloApp/Pods-AhmedSoloApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC962DF027538FB0006B84C7 /* Sources */ = {
@@ -267,9 +345,11 @@
 				FC962E1027539562006B84C7 /* MainCell.swift in Sources */,
 				FC7E38C22753EF0900AEAF5D /* Player.swift in Sources */,
 				FC24476927562FBF005B0643 /* WebVC.swift in Sources */,
+				FC3A663B2760CE0A00E2BF9A /* LoginVC.swift in Sources */,
 				FC4F1A482754DE6300C9DC0F /* ReminderCell.swift in Sources */,
 				FC3A6639276095BC00E2BF9A /* QiblahVC.swift in Sources */,
 				FC8E468B2753DE3200B6905D /* PrayVC.swift in Sources */,
+				FC3A663F27610DCB00E2BF9A /* AnimationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +497,7 @@
 		};
 		FC962E0927538FB0006B84C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB31DCA4665576F8D2EF90D4 /* Pods-AhmedSoloApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +526,7 @@
 		};
 		FC962E0A27538FB0006B84C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C0AEB930C261B18FE59B00 /* Pods-AhmedSoloApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
