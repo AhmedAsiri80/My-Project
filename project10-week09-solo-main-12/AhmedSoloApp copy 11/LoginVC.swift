@@ -24,6 +24,7 @@ class Login: UIViewController {
     var uid:String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor(named: "Color")
         
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
             backgroundImage.image = UIImage(named: "Image-10")

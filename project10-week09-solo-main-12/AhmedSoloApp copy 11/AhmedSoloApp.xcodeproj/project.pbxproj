@@ -17,9 +17,11 @@
 		FC3A663B2760CE0A00E2BF9A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A663A2760CE0A00E2BF9A /* LoginVC.swift */; };
 		FC3A663D2760CEB600E2BF9A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC3A663C2760CEB600E2BF9A /* GoogleService-Info.plist */; };
 		FC3A663F27610DCB00E2BF9A /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A663E27610DCB00E2BF9A /* AnimationVC.swift */; };
+		FC3A664127614FC000E2BF9A /* YoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A664027614FC000E2BF9A /* YoutubePlayer.swift */; };
 		FC4F1A462754DE4100C9DC0F /* ReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A452754DE4100C9DC0F /* ReminderVC.swift */; };
 		FC4F1A482754DE6300C9DC0F /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A472754DE6300C9DC0F /* ReminderCell.swift */; };
 		FC4F1A58275598C300C9DC0F /* TasbihVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A57275598C300C9DC0F /* TasbihVC.swift */; };
+		FC53230227623A91000D8056 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53230127623A91000D8056 /* ProfileVC.swift */; };
 		FC7E38C02753EED500AEAF5D /* Soot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E38BF2753EED500AEAF5D /* Soot.swift */; };
 		FC7E38C22753EF0900AEAF5D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E38C12753EF0900AEAF5D /* Player.swift */; };
 		FC7E38CB2753F64E00AEAF5D /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC7E38CA2753F64E00AEAF5D /* song2.mp3 */; };
@@ -50,10 +52,12 @@
 		FC3A663A2760CE0A00E2BF9A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		FC3A663C2760CEB600E2BF9A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FC3A663E27610DCB00E2BF9A /* AnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
+		FC3A664027614FC000E2BF9A /* YoutubePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubePlayer.swift; sourceTree = "<group>"; };
 		FC45C0922754B52D00D09A9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		FC4F1A452754DE4100C9DC0F /* ReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderVC.swift; sourceTree = "<group>"; };
 		FC4F1A472754DE6300C9DC0F /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
 		FC4F1A57275598C300C9DC0F /* TasbihVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasbihVC.swift; sourceTree = "<group>"; };
+		FC53230127623A91000D8056 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		FC7E38BF2753EED500AEAF5D /* Soot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soot.swift; sourceTree = "<group>"; };
 		FC7E38C12753EF0900AEAF5D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		FC7E38CA2753F64E00AEAF5D /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
@@ -172,6 +176,8 @@
 		FC962DEB27538FB0006B84C7 = {
 			isa = PBXGroup;
 			children = (
+				FC53230127623A91000D8056 /* ProfileVC.swift */,
+				FC3A664027614FC000E2BF9A /* YoutubePlayer.swift */,
 				FC3A663E27610DCB00E2BF9A /* AnimationVC.swift */,
 				FC3A663A2760CE0A00E2BF9A /* LoginVC.swift */,
 				FC3A6638276095BC00E2BF9A /* QiblahVC.swift */,
@@ -331,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3A664127614FC000E2BF9A /* YoutubePlayer.swift in Sources */,
 				FC0369502753998300A37026 /* Mainnext.swift in Sources */,
 				FC962DF827538FB0006B84C7 /* AppDelegate.swift in Sources */,
 				FC7E38C02753EED500AEAF5D /* Soot.swift in Sources */,
@@ -349,6 +356,7 @@
 				FC4F1A482754DE6300C9DC0F /* ReminderCell.swift in Sources */,
 				FC3A6639276095BC00E2BF9A /* QiblahVC.swift in Sources */,
 				FC8E468B2753DE3200B6905D /* PrayVC.swift in Sources */,
+				FC53230227623A91000D8056 /* ProfileVC.swift in Sources */,
 				FC3A663F27610DCB00E2BF9A /* AnimationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +519,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -540,6 +549,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

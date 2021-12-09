@@ -30,6 +30,7 @@ class LoginVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //view.backgroundColor = UIColor(named: "Color")
         // Do any additional setup after loading the view.
     }
     @IBAction func btnAdd(_ sender: Any) {

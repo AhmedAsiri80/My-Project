@@ -15,4 +15,11 @@ pod 'Firebase/Core'
 pod 'SkyFloatingLabelTextField'
 pod 'Firebase/Database'
 
+pod 'youtube-ios-player-helper'
+pod 'SVProgressHUD'
+pod 'SCLAlertView'
+pod 'SideMenu'
+
+
+
 end

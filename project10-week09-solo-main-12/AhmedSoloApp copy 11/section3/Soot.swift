@@ -18,8 +18,9 @@ class ReminderVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+       //
         self.sootlable.layer.cornerRadius = 20
-        
+        view.backgroundColor = UIColor(named: "Color")
         configureSongs()
         table.delegate = self
         table.dataSource = self

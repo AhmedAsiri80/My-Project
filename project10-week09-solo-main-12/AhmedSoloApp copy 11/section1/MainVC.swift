@@ -4,6 +4,7 @@
 //
 //  Created by Ahmed Assiri on 23/04/1443 AH.
 //
+//
 
 import UIKit
 
@@ -25,6 +26,7 @@ class storeVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSou
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor(named: "Color")
 //        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
 //            backgroundImage.image = UIImage(named: "خلفية-1")
 //            backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
@@ -56,12 +58,12 @@ class storeVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSou
     
 //    func scrollViewDidScroll(_ scrollView: UIScrollView) {
 //        let page = scrollView.contentOffset.x/scrollView.frame.width
-//        
+//
 //        Page.currentPage = Int(page)
-//        
-//        
+//
+//
 //    }
-//    
+//
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if searchText.isEmpty {

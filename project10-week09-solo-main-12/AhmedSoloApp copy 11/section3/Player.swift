@@ -51,6 +51,7 @@ class PlayerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor(named: "Color")
     }
 
     override func viewDidLayoutSubviews() {

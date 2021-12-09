@@ -20,6 +20,7 @@ class AminVC: UIViewController {
     
     override func viewDidLoad() {
         setupButtons()
+        view.backgroundColor = UIColor(named: "Color")
         //locationManager.delegate = self
     }
     
@@ -59,18 +60,6 @@ extension AminVC {
     }
 
 
-//
-// func animateButton(){
-//    UIView.animate(withDuration: 0.7,
-//                   delay: 0.6,
-//                   options: .curveLinear) {
-//        self.yConstraint?.constant = -350
-//        self.view.layoutIfNeeded()
-//    } completion: { _ in
-//        //self.boomEmoji.text = "💥"
-//    }
-//
-//}
 
 
 extension UIButton {
@@ -78,7 +67,7 @@ extension UIButton {
     func pulsate() {
         
         let pulse = CASpringAnimation(keyPath: "transform.scale")
-        pulse.duration = 0.6
+        pulse.duration = 0.3
         pulse.fromValue = 0.95
         pulse.toValue = 1
         pulse.autoreverses = true

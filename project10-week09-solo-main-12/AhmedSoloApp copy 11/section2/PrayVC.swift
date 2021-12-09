@@ -23,7 +23,7 @@ class TimePray: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = UIColor(named: "Color")
         tableView.dataSource = self
         
         let today = Date()

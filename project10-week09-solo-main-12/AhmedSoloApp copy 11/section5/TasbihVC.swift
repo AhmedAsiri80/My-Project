@@ -16,7 +16,7 @@ class TasbihVC: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+      view.backgroundColor = UIColor(named: "Color")
     Lablef.layer.cornerRadius = 10
     Lablef.layer.masksToBounds = true
     

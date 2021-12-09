@@ -494,7 +494,11 @@ PODS:
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
   - PromisesObjC (2.0.0)
+  - SCLAlertView (0.8)
+  - SideMenu (6.5.0)
   - SkyFloatingLabelTextField (4.0.0)
+  - SVProgressHUD (2.2.5)
+  - youtube-ios-player-helper (1.0.3)
 
 DEPENDENCIES:
   - Firebase/Analytics
@@ -503,7 +507,11 @@ DEPENDENCIES:
   - Firebase/Database
   - Firebase/Firestore
   - Firebase/Storage
+  - SCLAlertView
+  - SideMenu
   - SkyFloatingLabelTextField
+  - SVProgressHUD
+  - youtube-ios-player-helper
 
 SPEC REPOS:
   trunk:
@@ -527,7 +535,11 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - PromisesObjC
+    - SCLAlertView
+    - SideMenu
     - SkyFloatingLabelTextField
+    - SVProgressHUD
+    - youtube-ios-player-helper
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
@@ -550,8 +562,12 @@ SPEC CHECKSUMS:
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
   SkyFloatingLabelTextField: 79ddc40e4ad59707fedbb48d605417aee48bb78a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  youtube-ios-player-helper: 0185c57db23c80d63d6ca11251d110abb8a4ca61
 
-PODFILE CHECKSUM: 937ff33efc529de821c1ccd9fdab0e3992765245
+PODFILE CHECKSUM: f32a2e1b0eb46f1b1e5e93c98217cddbbc276b9b
 
 COCOAPODS: 1.11.2

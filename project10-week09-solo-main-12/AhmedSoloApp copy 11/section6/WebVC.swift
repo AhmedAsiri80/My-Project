@@ -22,5 +22,6 @@ class WebVC : UIViewController {
     @IBAction func webadd2(_ sender: UIButton) {
         UIApplication.shared.open(URL(string: "https://www.joodeskan.sa")! as URL, options: [:], completionHandler: nil)
     }
+
     
 }

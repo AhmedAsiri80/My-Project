@@ -18,7 +18,7 @@ class ProductVC: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        view.backgroundColor = UIColor(named: "Color")
    
     if selectedProduect != nil{
         productName.text = selectedProduect?.name

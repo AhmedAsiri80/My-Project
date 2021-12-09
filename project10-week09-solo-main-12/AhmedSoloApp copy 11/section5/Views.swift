@@ -17,6 +17,7 @@ class Views : UIViewController {
     @IBOutlet weak var pagetsbih: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor(named: "Color")
         self.pagemansh.layer.cornerRadius = 20
         self.pagetsbih.layer.cornerRadius = 20
         self.picturemansh.layer.cornerRadius = 20
