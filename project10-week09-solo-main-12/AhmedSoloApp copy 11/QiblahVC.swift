@@ -130,7 +130,7 @@ class CompassDirectionManager: NSObject , CLLocationManagerDelegate{
     var pointerImageView : UIImageView!
     
     private var latOfOrigin = 21.4225
-    private var lngOfOrigin = 39.826111  //39.8262
+    private var lngOfOrigin = 39.8262
     
     private var location: CLLocation?
     

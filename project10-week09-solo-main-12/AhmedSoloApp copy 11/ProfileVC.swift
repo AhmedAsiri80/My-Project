@@ -5,202 +5,138 @@
 //  Created by Ahmed Assiri on 05/05/1443 AH.
 //
 
-/*
-import UIKit
-
-struct User {
-    let id: String
-    let name: String
-    let status: String
-    let latitude: Double
-    let longitude: Double
-//    let image : String
-    
-}
 
 import UIKit
-import FirebaseFirestore
-import Firebase
 
+class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var pageControll: UIPageControl!
+    @IBOutlet weak var collectionView: PagingCollectionVIew!
+    
+    let imageArray = ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg"]
 
-class ProfileVC : UIViewController, UIImagePickerControllerDelegate,UITextFieldDelegate, UINavigationControllerDelegate{
-    
-    
-    
-    lazy var profileImage: UIImageView = {
-        let view = UIImageView()
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .white
-        view.layer.cornerRadius = 25
-        view.isUserInteractionEnabled = true
-        return view
-    }()
-    lazy var imagePicker : UIImagePickerController = {
-        let imagePicker = UIImagePickerController()
-        imagePicker.delegate = self
-        imagePicker.sourceType = .photoLibrary
-        imagePicker.allowsEditing = true
-        return imagePicker
-    }()
-    let name : UITextField = {
-        $0.translatesAutoresizingMaskIntoConstraints = false
-        $0.placeholder = "Write your name"
-        $0.backgroundColor = .init(white: 0.85, alpha: 1)
-        $0.layer.cornerRadius = 22.5
-        $0.textAlignment = .center
-        return $0
-    }(UITextField())
-    let status : UITextField = {
-        $0.translatesAutoresizingMaskIntoConstraints = false
-        $0.placeholder = "Write your status"
-        $0.backgroundColor = .init(white: 0.85, alpha: 1)
-        $0.layer.cornerRadius = 22.5
-        $0.textAlignment = .center
-        return $0
-    }(UITextField())
-    let Button : UIButton = {
-        $0.backgroundColor = .black
-        $0.setTitle("Save", for: .normal)
-        $0.tintColor = .black
-        $0.layer.cornerRadius = 22.5
-        $0.translatesAutoresizingMaskIntoConstraints = false
-        $0.addTarget(self, action: #selector(haB), for: .touchUpInside)
-        return $0
-    }(UIButton())
-    let Button1 : UIButton = {
-        $0.backgroundColor = .white
-        $0.setTitle("sign out", for: .normal)
-        $0.setTitleColor(UIColor.black, for: .normal)
-        $0.layer.cornerRadius = 22.5
-        $0.translatesAutoresizingMaskIntoConstraints = false
-        $0.addTarget(self, action: #selector(signOut), for: .touchUpInside)
-        return $0
-    }(UIButton())
-    
-    @objc func OpenImage(_ sender: Any) {
-        let pick = UIImagePickerController()
-        pick.allowsEditing = true
-        pick.delegate = self
-        present(pick, animated: true)
-    }
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        let image = (info[.editedImage] ?? info[.originalImage]) as? UIImage;
-        profileImage.image = image
-        dismiss(animated: false)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped))
-        profileImage.addGestureRecognizer(tapRecognizer)
-        
-        view.backgroundColor = .white
-        profileImage.image = .init(systemName: "45")
-        profileImage.tintColor = UIColor(ciColor: .black)
-        profileImage.layer.masksToBounds = true
-        profileImage.layer.cornerRadius = 100
-        profileImage.contentMode = .scaleAspectFit
-        profileImage.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(profileImage)
-        NSLayoutConstraint.activate([
-            profileImage.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            profileImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 200),
-            profileImage.heightAnchor.constraint(equalToConstant: 200),
-            profileImage.widthAnchor.constraint(equalToConstant: 200)
-        ])
-        name.font = .boldSystemFont(ofSize: 23)
-        name.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(name)
-        NSLayoutConstraint.activate([
-            name.topAnchor.constraint(equalTo: view.topAnchor,constant: 440),
-            name.leftAnchor.constraint(equalTo: view.leftAnchor , constant: 50),
-            name.heightAnchor.constraint(equalToConstant: 40),
-            name.widthAnchor.constraint(equalToConstant: 290),
-            //name.trailingAnchor.constraint(equalTo: view.trailingAnchor , constant: 100)
-        ])
-        status.textColor = .green
-        status.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(status)
-        NSLayoutConstraint.activate([
-            status.topAnchor.constraint(equalTo: view.topAnchor,constant: 485),
-            status.leftAnchor.constraint(equalTo: view.leftAnchor , constant: 50),
-            status.heightAnchor.constraint(equalToConstant: 40),
-            status.widthAnchor.constraint(equalToConstant: 290),
-        ])
-        view.addSubview(Button)
-        NSLayoutConstraint.activate([
-            Button.topAnchor.constraint(equalTo: view.topAnchor,constant: 570),
-            //      Button.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 500),
-            Button.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50),
-            Button.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
-            Button.heightAnchor.constraint(equalToConstant: 55)
-        ])
-        view.addSubview(Button1)
-        NSLayoutConstraint.activate([
-            Button1.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 450),
-            Button1.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
-            Button1.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30),
-            Button1.heightAnchor.constraint(equalToConstant: 70)
-        ])
-        
-        
-        
-        guard let currentUserID = Auth.auth().currentUser?.uid else {return}
-        Firestore.firestore()
-            .document("users/\(currentUserID)")
-            .addSnapshotListener{ doucument, error in
-                if error != nil {
-                    print (error as Any)
-                    return
-                }
-                self.name.text = doucument?.data()?["name"] as? String
-                self.status.text = doucument?.data()?["status"] as? String
-                self.profileImage.image = doucument?.data()?["image"] as? UIImage
-                
-            }
-    }
-    
-    
-    @objc func imageTapped() {
-        print("Image tapped")
-        present(imagePicker, animated: true)
-    }
-    
-    @objc func haB() {
-        guard let currentUserID = Auth.auth().currentUser?.uid else {return}
-        Firestore.firestore().document("users/\(currentUserID)").setData([
-            "name" : name.text as Any,
-            "id" : currentUserID,
-            "status" :status.text as Any,
-            "image" : "\(profileImage.image)" as Any,
-        ],merge: true)
-        let alert1 = UIAlertController(
-            title: ("Saved"),
-            message: "Saved update data",
-            preferredStyle: .alert)
-        alert1.addAction(
-            UIAlertAction(
-                title: "OK",
-                style: .default,
-                handler: { action in
-                    print("OK")
-                }
-            )
-        )
-        present(alert1, animated: true, completion: nil)
-    }
-    @objc func signOut() {
-        let firebaseAuth = Auth.auth()
-        do {
-            try firebaseAuth.signOut()
-            dismiss(animated: true, completion: nil)
-        } catch let signOutError as NSError {
-            print ("Error signing out: \(signOutError.localizedDescription)")
-        }
+        // Do any additional setup after loading the view, typically from a nib.
+        initCollectionView()
     }
 }
 
 
-*/
+extension ViewController {
+    
+    func initCollectionView() {
+        collectionView.scrollInterval = 2
+        collectionView.startScrolling()
+        pageControll.numberOfPages = imageArray.count
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        
+        let currentPage: Int = Int(scrollView.contentOffset.x / collectionView.bounds.size.width)
+        pageControll.currentPage = currentPage
+    }
+}
 
+extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return imageArray.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! PageCell999
+        cell.imageView.image = UIImage(named: imageArray[indexPath.row])
+        return cell
+        
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize.init(width: self.collectionView.frame.size.width, height: self.collectionView.frame.size.height)
+    }
+    
+}
+
+import UIKit
+
+class PageCell999: UICollectionViewCell {
+    @IBOutlet weak var imageView: UIImageView!
+    
+}
+
+
+import UIKit
+
+class PagingCollectionVIew: UICollectionView {
+    
+    private var timer = Timer()
+    var scrollInterval: Int = 2
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        self.isPagingEnabled = true
+    }
+    
+    func startScrolling() {
+        if !timer.isValid {
+            if self.numberOfItems(inSection: 0) != 0 {
+                
+                setTimer()
+            }
+        }
+    }
+    
+    deinit { stopTimer() }
+    
+    func stopTimer() {
+        
+        if timer.isValid {
+            self.timer.invalidate()
+            
+        }
+    }
+    
+    fileprivate func setTimer() {
+        self.timer = Timer.scheduledTimer(timeInterval: TimeInterval(scrollInterval), target: self, selector: #selector(self.autoScrollImageSlider), userInfo: nil, repeats: true)
+        RunLoop.main.add(self.timer, forMode: .common)
+    }
+    
+    @objc fileprivate func autoScrollImageSlider() {
+        DispatchQueue.main.async {
+            let firstIndex = 0
+            let lastIndex = self.numberOfItems(inSection: 0) - 1
+            let visibleCellsIndexes = self.indexPathsForVisibleItems.sorted()
+            
+            if !visibleCellsIndexes.isEmpty {
+                let nextIndex = visibleCellsIndexes[0].row + 1
+                let nextIndexPath: IndexPath = IndexPath.init(item: nextIndex, section: 0)
+                let firstIndexPath: IndexPath = IndexPath.init(item: firstIndex, section: 0)
+                
+                (nextIndex > lastIndex) ? (self.scrollToItem(at: firstIndexPath, at: .centeredHorizontally, animated: true)) : (self.scrollToItem(at: nextIndexPath, at: .centeredHorizontally, animated: true))
+            }
+        }
+    }
+  
+}
+
+import Foundation
+import UIKit
+
+
+class WebVC : UIViewController {
+    
+   
+    @IBAction func webadd(_ sender: UIButton) {
+        
+        UIApplication.shared.open(URL(string: "https://ehsan.sa/?utm_source=GOOGLE&utm_medium=SEARCH&utm_campaign=ONGOING")! as URL, options: [:], completionHandler: nil)
+        
+    }
+    
+  
+    @IBAction func webadd2(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.joodeskan.sa")! as URL, options: [:], completionHandler: nil)
+    }
+
+    
+}

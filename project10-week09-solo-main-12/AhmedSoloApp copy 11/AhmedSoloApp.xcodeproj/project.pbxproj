@@ -12,6 +12,8 @@
 		FC15B2C32758F07000DD76BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC15B2C22758F07000DD76BB /* Assets.xcassets */; };
 		FC24476927562FBF005B0643 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC24476827562FBF005B0643 /* WebVC.swift */; };
 		FC2447722757493F005B0643 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2447712757493F005B0643 /* Views.swift */; };
+		FC2A047A2764E26700FBE4E3 /* PdfVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A04792764E26700FBE4E3 /* PdfVC.swift */; };
+		FC2A047C2764E52C00FBE4E3 /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC2A047B2764E52C00FBE4E3 /* test.pdf */; };
 		FC36C98A275935500078CCAB /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC36C989275935500078CCAB /* song1.mp3 */; };
 		FC3A6639276095BC00E2BF9A /* QiblahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A6638276095BC00E2BF9A /* QiblahVC.swift */; };
 		FC3A663B2760CE0A00E2BF9A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A663A2760CE0A00E2BF9A /* LoginVC.swift */; };
@@ -27,7 +29,6 @@
 		FC7E38CB2753F64E00AEAF5D /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC7E38CA2753F64E00AEAF5D /* song2.mp3 */; };
 		FC7E38CF2753FC7000AEAF5D /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC7E38CE2753FC7000AEAF5D /* song3.mp3 */; };
 		FC7E38D12754030B00AEAF5D /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E38D02754030B00AEAF5D /* Clock.swift */; };
-		FC7E38D327540D1700AEAF5D /* PlayVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E38D227540D1700AEAF5D /* PlayVideo.swift */; };
 		FC8E468B2753DE3200B6905D /* PrayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E468A2753DE3200B6905D /* PrayVC.swift */; };
 		FC962DF827538FB0006B84C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC962DF727538FB0006B84C7 /* AppDelegate.swift */; };
 		FC962DFA27538FB0006B84C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC962DF927538FB0006B84C7 /* SceneDelegate.swift */; };
@@ -47,6 +48,8 @@
 		FC24476627560662005B0643 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		FC24476827562FBF005B0643 /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
 		FC2447712757493F005B0643 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		FC2A04792764E26700FBE4E3 /* PdfVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfVC.swift; sourceTree = "<group>"; };
+		FC2A047B2764E52C00FBE4E3 /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
 		FC36C989275935500078CCAB /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
 		FC3A6638276095BC00E2BF9A /* QiblahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblahVC.swift; sourceTree = "<group>"; };
 		FC3A663A2760CE0A00E2BF9A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -63,8 +66,6 @@
 		FC7E38CA2753F64E00AEAF5D /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
 		FC7E38CE2753FC7000AEAF5D /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
 		FC7E38D02754030B00AEAF5D /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
-		FC7E38D227540D1700AEAF5D /* PlayVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideo.swift; sourceTree = "<group>"; };
-		FC7E38D427540D4200AEAF5D /* train.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = train.m4v; sourceTree = "<group>"; };
 		FC8E468A2753DE3200B6905D /* PrayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayVC.swift; sourceTree = "<group>"; };
 		FC962DF427538FB0006B84C7 /* AhmedSoloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhmedSoloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC962DF727538FB0006B84C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,15 +124,6 @@
 			path = section6;
 			sourceTree = "<group>";
 		};
-		FC24477327575103005B0643 /* section7 */ = {
-			isa = PBXGroup;
-			children = (
-				FC7E38D227540D1700AEAF5D /* PlayVideo.swift */,
-				FC7E38D427540D4200AEAF5D /* train.m4v */,
-			);
-			path = section7;
-			sourceTree = "<group>";
-		};
 		FC45C0902754A76400D09A9D /* section3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +168,8 @@
 		FC962DEB27538FB0006B84C7 = {
 			isa = PBXGroup;
 			children = (
+				FC2A047B2764E52C00FBE4E3 /* test.pdf */,
+				FC2A04792764E26700FBE4E3 /* PdfVC.swift */,
 				FC53230127623A91000D8056 /* ProfileVC.swift */,
 				FC3A664027614FC000E2BF9A /* YoutubePlayer.swift */,
 				FC3A663E27610DCB00E2BF9A /* AnimationVC.swift */,
@@ -188,7 +182,6 @@
 				FC4F1A49275511B200C9DC0F /* section4 */,
 				FC2447652755FCAD005B0643 /* section5 */,
 				FC24476A275636EC005B0643 /* section6 */,
-				FC24477327575103005B0643 /* section7 */,
 				FC962DF527538FB0006B84C7 /* Products */,
 				AC40B277F303B37EA6457350 /* Pods */,
 				548FF228F5E63974413A2CCD /* Frameworks */,
@@ -279,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC7E38CF2753FC7000AEAF5D /* song3.mp3 in Resources */,
+				FC2A047C2764E52C00FBE4E3 /* test.pdf in Resources */,
 				FC36C98A275935500078CCAB /* song1.mp3 in Resources */,
 				FC962E0427538FB0006B84C7 /* LaunchScreen.storyboard in Resources */,
 				FC7E38CB2753F64E00AEAF5D /* song2.mp3 in Resources */,
@@ -348,8 +342,8 @@
 				FC962DFA27538FB0006B84C7 /* SceneDelegate.swift in Sources */,
 				FC4F1A462754DE4100C9DC0F /* ReminderVC.swift in Sources */,
 				FC962E0E27539397006B84C7 /* Data.swift in Sources */,
-				FC7E38D327540D1700AEAF5D /* PlayVideo.swift in Sources */,
 				FC962E1027539562006B84C7 /* MainCell.swift in Sources */,
+				FC2A047A2764E26700FBE4E3 /* PdfVC.swift in Sources */,
 				FC7E38C22753EF0900AEAF5D /* Player.swift in Sources */,
 				FC24476927562FBF005B0643 /* WebVC.swift in Sources */,
 				FC3A663B2760CE0A00E2BF9A /* LoginVC.swift in Sources */,
@@ -509,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 47D3PLR2U9;
@@ -517,6 +512,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -527,6 +524,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.AhmedSoloApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -539,6 +537,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 47D3PLR2U9;
@@ -547,6 +546,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -557,6 +558,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.AhmedSoloApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
