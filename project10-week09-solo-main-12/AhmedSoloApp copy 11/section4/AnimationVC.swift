@@ -20,6 +20,7 @@ class AminVC: UIViewController {
     
     override func viewDidLoad() {
         setupButtons()
+        self.startButton.layer.cornerRadius = 20
         view.backgroundColor = UIColor(named: "Color")
         //locationManager.delegate = self
     }

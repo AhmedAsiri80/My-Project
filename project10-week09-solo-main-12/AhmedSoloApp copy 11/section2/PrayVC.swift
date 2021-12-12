@@ -23,6 +23,9 @@ class TimePray: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.lableDate.layer.cornerRadius = 20
+        
+        
         view.backgroundColor = UIColor(named: "Color")
         tableView.dataSource = self
         

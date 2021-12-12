@@ -4,13 +4,18 @@
 //
 //  Created by Ahmed Assiri on 25/04/1443 AH.
 //
-/*
+
 import Foundation
 import UIKit
+import youtube_ios_player_helper
+import SideMenu
 
 
-class WebVC : UIViewController {
+class WebVC : UIViewController, YTPlayerViewDelegate {
     
+    @IBOutlet weak var playtwo: YTPlayerView!
+    //@IBOutlet weak var playerVedio: YTPlayerView!
+   // @IBOutlet weak var playerVedio3: YTPlayerView!
    
     @IBAction func webadd(_ sender: UIButton) {
         
@@ -23,6 +28,17 @@ class WebVC : UIViewController {
         UIApplication.shared.open(URL(string: "https://www.joodeskan.sa")! as URL, options: [:], completionHandler: nil)
     }
 
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = UIColor(named: "Color")
+        
+       
+        playtwo.load(withVideoId: "1tT-IlDd1bE", playerVars: ["playsinline": "1"])
+        playtwo.delegate = self
+//
+//        playerVedio3.load(withVideoId: "g1WJI9O6fyA", playerVars: ["playsinline": "1"])
+//        playerVedio3.delegate = self
+//        
 }
-*/
+
+}

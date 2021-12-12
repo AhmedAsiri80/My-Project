@@ -19,7 +19,7 @@ class PdfVC : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let path = Bundle.main.path(forResource: "test", ofType: "pdf")
+        let path = Bundle.main.path(forResource: "Quran", ofType: "pdf")
         let url = URL(fileURLWithPath: path!)
         let request = URLRequest(url: url)
         
