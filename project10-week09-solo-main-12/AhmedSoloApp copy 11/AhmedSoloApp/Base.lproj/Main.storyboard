@@ -1258,7 +1258,6 @@
         <!--View Controller-->
         <scene sceneID="DdA-Uw-UVV">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ppl-Nj-LHr" sceneMemberID="firstResponder"/>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="Izd-Wq-Sdi" customClass="ViewController" customModule="AhmedSoloApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cDQ-Rr-HeL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -1324,6 +1323,7 @@
                         <outlet property="pageControll" destination="7rM-0L-S0Q" id="ENn-Tp-ETQ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ppl-Nj-LHr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1993" y="811"/>
         </scene>
@@ -1538,7 +1538,7 @@
         <!--product-->
         <scene sceneID="eUy-bc-aOV">
             <objects>
-                <viewController id="XoV-fV-4b7" customClass="VC1" customModule="_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XoV-fV-4b7" customClass="VC1" customModule="AhmedSoloApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JHL-86-rfG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1557,7 +1557,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RestCell" id="Xkg-uT-7l2" customClass="Cell1" customModule="_" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RestCell" id="Xkg-uT-7l2" customClass="Cell1" customModule="AhmedSoloApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="191" height="246"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="GBH-e0-LeO">
@@ -1632,7 +1632,7 @@
         <!--VC2-->
         <scene sceneID="kP8-G6-cXF">
             <objects>
-                <viewController id="eHq-eZ-CA8" customClass="VC2" customModule="_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eHq-eZ-CA8" customClass="VC2" customModule="AhmedSoloApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NUX-ZK-6Ik">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
