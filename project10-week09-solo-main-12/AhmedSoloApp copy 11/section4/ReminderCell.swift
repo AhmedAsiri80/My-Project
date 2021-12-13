@@ -8,7 +8,7 @@
 import UIKit
 
 class AddViewController: UIViewController {
-
+    
     @IBOutlet weak var lblTitle: UITextField!
     @IBOutlet weak var lblBody: UITextField!
     
@@ -20,7 +20,7 @@ class AddViewController: UIViewController {
         //view.backgroundColor = UIColor(named: "Color")
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Save", style: .done, target: self, action: #selector(btnSave))
-    
+        
     }
     
     @objc func btnSave(){
@@ -32,7 +32,7 @@ class AddViewController: UIViewController {
             }
         }
     }
- 
-  
-
+    
+    
+    
 }

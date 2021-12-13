@@ -14,7 +14,7 @@ var userName: String? {
 
 class AminVC: UIViewController {
     
-//    private var locationManager = CLLocationManager()
+    //    private var locationManager = CLLocationManager()
     
     @IBOutlet weak var startButton: UIButton!
     
@@ -32,16 +32,16 @@ class AminVC: UIViewController {
     }
     override func viewDidAppear(_ animated: Bool) {
         animateButton()
-       // locationManager.requestWhenInUseAuthorization()
-       // locationManager.requestLocation()
+        // locationManager.requestWhenInUseAuthorization()
+        // locationManager.requestLocation()
     }
-
- @IBAction func startButtonPressed(_ sender: UIButton) {
-     sender.pulsate()
-       if userName != nil {
+    
+    @IBAction func startButtonPressed(_ sender: UIButton) {
+        sender.pulsate()
+        if userName != nil {
             performSegue(withIdentifier: "123", sender: self)
         }
-   }
+    }
 }
 
 import UIKit
@@ -58,7 +58,7 @@ extension AminVC {
         })
     }
     
-    }
+}
 
 
 

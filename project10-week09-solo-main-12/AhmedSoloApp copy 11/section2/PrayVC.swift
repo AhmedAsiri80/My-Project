@@ -16,7 +16,7 @@ class TimePray: UIViewController {
     var prayTime: PrayTime?
     
     @IBOutlet weak var tableView: UITableView!
-   
+    
     @IBOutlet weak var lableDate: UILabel!
     @IBOutlet weak var lableTime: UILabel!
     
@@ -57,12 +57,12 @@ class TimePray: UIViewController {
             self.lableDate.text = currentTime
             self.lableTime.text = currentDate
         }
-//        // Print date and time
-//        let formatter = DateFormatter()
-//        formatter.dateFormat = "yyyy-MM-dd"
-//        for i in 0..<prayTimeList!.count {
-//            print("\(formatter.string(from: today))", prayTimeList!.object(at: i))
-//        }
+        //        // Print date and time
+        //        let formatter = DateFormatter()
+        //        formatter.dateFormat = "yyyy-MM-dd"
+        //        for i in 0..<prayTimeList!.count {
+        //            print("\(formatter.string(from: today))", prayTimeList!.object(at: i))
+        //        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -131,14 +131,7 @@ class PrayTime {
     var numIterations: NSInteger = 1        // number of iterations needed to compute times
     
     //------------------- Calc Method Parameters --------------------
-    /*  this.methodParams[methodNum] = new Array(fa, ms, mv, is, iv)
-     
-     fa : fajr angle
-     ms : maghrib selector (0 = angle 1 = minutes after sunset)
-     mv : maghrib parameter value (in angle or minutes)
-     is : isha selector (0 = angle 1 = minutes after maghrib)
-     iv : isha parameter value (in angle or minutes)
-     */
+   
     var methodParams: [CalculationMethod : [Any]] = [.Jafari  : [16, 0, 4, 0, 14],
                                                      .Karachi : [18, 1, 0, 0, 18],
                                                      .ISNA    : [15, 1, 0, 0, 15],

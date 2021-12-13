@@ -7,18 +7,10 @@
 //
 
 import Foundation
-
-struct Reminder {
-    var title : String
-    var body : String
-    var date : Date
-    let identifier : String
-}
-
 import UIKit
 
 class LoginVC: UIViewController {
-
+    
     
     
     
@@ -76,7 +68,7 @@ class LoginVC: UIViewController {
                 }
                 
             }
-          
+            
         }
         
         self.navigationController?.pushViewController(vc, animated: true)

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		27C877E5BAE9897DCCBE94C7 /* Pods_AhmedSoloApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F273C778B331FDE8DAE9009A /* Pods_AhmedSoloApp.framework */; };
 		FC15B2C32758F07000DD76BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC15B2C22758F07000DD76BB /* Assets.xcassets */; };
+		FC23FFD827673B660087E09D /* song4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC23FFD727673B650087E09D /* song4.mp3 */; };
 		FC24476927562FBF005B0643 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC24476827562FBF005B0643 /* WebVC.swift */; };
 		FC2447722757493F005B0643 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2447712757493F005B0643 /* Views.swift */; };
 		FC2A047A2764E26700FBE4E3 /* PdfVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A04792764E26700FBE4E3 /* PdfVC.swift */; };
@@ -23,6 +24,9 @@
 		FC4F1A482754DE6300C9DC0F /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A472754DE6300C9DC0F /* ReminderCell.swift */; };
 		FC4F1A58275598C300C9DC0F /* TasbihVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A57275598C300C9DC0F /* TasbihVC.swift */; };
 		FC53230227623A91000D8056 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53230127623A91000D8056 /* ProfileVC.swift */; };
+		FC5EC1EF2767229800C1F23F /* GestureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EC1EE2767229800C1F23F /* GestureVC.swift */; };
+		FC5EC1F22767266200C1F23F /* PageImageAuto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EC1F12767266200C1F23F /* PageImageAuto.swift */; };
+		FC5EC1F42767274D00C1F23F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EC1F32767274D00C1F23F /* Data.swift */; };
 		FC7E38C02753EED500AEAF5D /* Soot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E38BF2753EED500AEAF5D /* Soot.swift */; };
 		FC7E38C22753EF0900AEAF5D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E38C12753EF0900AEAF5D /* Player.swift */; };
 		FC7E38CB2753F64E00AEAF5D /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC7E38CA2753F64E00AEAF5D /* song2.mp3 */; };
@@ -43,6 +47,7 @@
 		BB31DCA4665576F8D2EF90D4 /* Pods-AhmedSoloApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AhmedSoloApp.debug.xcconfig"; path = "Target Support Files/Pods-AhmedSoloApp/Pods-AhmedSoloApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F273C778B331FDE8DAE9009A /* Pods_AhmedSoloApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AhmedSoloApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC15B2C22758F07000DD76BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC23FFD727673B650087E09D /* song4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song4.mp3; sourceTree = "<group>"; };
 		FC24476627560662005B0643 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		FC24476827562FBF005B0643 /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
 		FC2447712757493F005B0643 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
@@ -59,6 +64,9 @@
 		FC4F1A472754DE6300C9DC0F /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
 		FC4F1A57275598C300C9DC0F /* TasbihVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasbihVC.swift; sourceTree = "<group>"; };
 		FC53230127623A91000D8056 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		FC5EC1EE2767229800C1F23F /* GestureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureVC.swift; sourceTree = "<group>"; };
+		FC5EC1F12767266200C1F23F /* PageImageAuto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageImageAuto.swift; sourceTree = "<group>"; };
+		FC5EC1F32767274D00C1F23F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		FC7E38BF2753EED500AEAF5D /* Soot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soot.swift; sourceTree = "<group>"; };
 		FC7E38C12753EF0900AEAF5D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		FC7E38CA2753F64E00AEAF5D /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
@@ -117,9 +125,10 @@
 		FC24476A275636EC005B0643 /* section6 */ = {
 			isa = PBXGroup;
 			children = (
-				FC24476827562FBF005B0643 /* WebVC.swift */,
 				FC3A663A2760CE0A00E2BF9A /* LoginVC.swift */,
 				FC53230127623A91000D8056 /* ProfileVC.swift */,
+				FC24476827562FBF005B0643 /* WebVC.swift */,
+				FC5EC1F12767266200C1F23F /* PageImageAuto.swift */,
 			);
 			path = section6;
 			sourceTree = "<group>";
@@ -128,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				FC36C989275935500078CCAB /* song1.mp3 */,
+				FC23FFD727673B650087E09D /* song4.mp3 */,
 				FC7E38CA2753F64E00AEAF5D /* song2.mp3 */,
 				FC7E38CE2753FC7000AEAF5D /* song3.mp3 */,
 				FC7E38BF2753EED500AEAF5D /* Soot.swift */,
@@ -139,11 +149,21 @@
 		FC4F1A49275511B200C9DC0F /* section4 */ = {
 			isa = PBXGroup;
 			children = (
+				FC5EC1F32767274D00C1F23F /* Data.swift */,
 				FC4F1A452754DE4100C9DC0F /* ReminderVC.swift */,
 				FC4F1A472754DE6300C9DC0F /* ReminderCell.swift */,
 				FC3A663E27610DCB00E2BF9A /* AnimationVC.swift */,
 			);
 			path = section4;
+			sourceTree = "<group>";
+		};
+		FC5EC1F0276723CB00C1F23F /* section7 */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A664027614FC000E2BF9A /* YoutubePlayer.swift */,
+				FC5EC1EE2767229800C1F23F /* GestureVC.swift */,
+			);
+			path = section7;
 			sourceTree = "<group>";
 		};
 		FC8E468C2753DFA500B6905D /* section1 */ = {
@@ -171,13 +191,13 @@
 		FC962DEB27538FB0006B84C7 = {
 			isa = PBXGroup;
 			children = (
-				FC3A664027614FC000E2BF9A /* YoutubePlayer.swift */,
 				FC962DF627538FB0006B84C7 /* AhmedSoloApp */,
 				FC8E468C2753DFA500B6905D /* section1 */,
 				FC8E468D2753DFC100B6905D /* section2 */,
 				FC45C0902754A76400D09A9D /* section3 */,
 				FC4F1A49275511B200C9DC0F /* section4 */,
 				FC2447652755FCAD005B0643 /* section5 */,
+				FC5EC1F0276723CB00C1F23F /* section7 */,
 				FC24476A275636EC005B0643 /* section6 */,
 				FC962DF527538FB0006B84C7 /* Products */,
 				AC40B277F303B37EA6457350 /* Pods */,
@@ -273,6 +293,7 @@
 				FC36C98A275935500078CCAB /* song1.mp3 in Resources */,
 				FC962E0427538FB0006B84C7 /* LaunchScreen.storyboard in Resources */,
 				FC7E38CB2753F64E00AEAF5D /* song2.mp3 in Resources */,
+				FC23FFD827673B660087E09D /* song4.mp3 in Resources */,
 				FC962DFF27538FB0006B84C7 /* Main.storyboard in Resources */,
 				FC3A663D2760CEB600E2BF9A /* GoogleService-Info.plist in Resources */,
 				FC15B2C32758F07000DD76BB /* Assets.xcassets in Resources */,
@@ -335,13 +356,16 @@
 				FC2447722757493F005B0643 /* Views.swift in Sources */,
 				FC7E38D12754030B00AEAF5D /* Clock.swift in Sources */,
 				FC4F1A58275598C300C9DC0F /* TasbihVC.swift in Sources */,
+				FC5EC1F22767266200C1F23F /* PageImageAuto.swift in Sources */,
 				FC962DFA27538FB0006B84C7 /* SceneDelegate.swift in Sources */,
 				FC4F1A462754DE4100C9DC0F /* ReminderVC.swift in Sources */,
 				FC962E0E27539397006B84C7 /* Data.swift in Sources */,
 				FC962E1027539562006B84C7 /* MainCell.swift in Sources */,
 				FC2A047A2764E26700FBE4E3 /* PdfVC.swift in Sources */,
+				FC5EC1F42767274D00C1F23F /* Data.swift in Sources */,
 				FC7E38C22753EF0900AEAF5D /* Player.swift in Sources */,
 				FC24476927562FBF005B0643 /* WebVC.swift in Sources */,
+				FC5EC1EF2767229800C1F23F /* GestureVC.swift in Sources */,
 				FC3A663B2760CE0A00E2BF9A /* LoginVC.swift in Sources */,
 				FC4F1A482754DE6300C9DC0F /* ReminderCell.swift in Sources */,
 				FC3A6639276095BC00E2BF9A /* QiblahVC.swift in Sources */,
