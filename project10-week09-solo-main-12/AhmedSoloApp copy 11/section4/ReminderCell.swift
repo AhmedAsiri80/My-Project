@@ -6,8 +6,13 @@
 //
 
 import UIKit
+import FirebaseFirestore
+import FirebaseAuth
 
 class AddViewController: UIViewController {
+
+    
+    let reminderColl = Firestore.firestore().collection("Reminders")
     
     @IBOutlet weak var lblTitle: UITextField!
     @IBOutlet weak var lblBody: UITextField!
@@ -24,11 +29,17 @@ class AddViewController: UIViewController {
     }
     
     @objc func btnSave(){
-        if let titleText = lblTitle.text, !titleText.isEmpty {
-            if let bodyText = lblBody.text , !bodyText.isEmpty {
-                let targetDate = datePicker.date
-                
-                completion?(titleText,bodyText,targetDate)
+
+               
+                    if let titleText = lblTitle.text, !titleText.isEmpty {
+                        if let bodyText = lblBody.text , !bodyText.isEmpty {
+                            let targetDate = datePicker.date
+                            reminderColl.document().setData([
+                               
+                                "content": lblBody.text
+                            ], merge: true)
+                    
+                    completion?(titleText,bodyText,targetDate)
             }
         }
     }

@@ -8,12 +8,11 @@
 
 import Foundation
 import UIKit
+import FirebaseFirestore
 
-class LoginVC: UIViewController {
+class ReminderVc: UIViewController {
     
-    
-    
-    
+
     
     
     @IBOutlet weak var tableView: UITableView!
@@ -77,7 +76,7 @@ class LoginVC: UIViewController {
     
 }
 
-extension LoginVC : UITableViewDelegate {
+extension ReminderVc : UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
@@ -85,7 +84,7 @@ extension LoginVC : UITableViewDelegate {
     
 }
 
-extension LoginVC  : UITableViewDataSource {
+extension ReminderVc  : UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -113,7 +112,7 @@ extension LoginVC  : UITableViewDataSource {
     
 }
 
-extension LoginVC {
+extension ReminderVc {
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         

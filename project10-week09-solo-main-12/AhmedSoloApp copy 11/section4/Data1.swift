@@ -13,4 +13,13 @@ struct Reminder {
     var body : String
     var date : Date
     let identifier : String
+    
 }
+
+struct Reminder2 {
+    var reminder: String
+
+}
+
+
+
