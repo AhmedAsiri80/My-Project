@@ -33,7 +33,7 @@ class AminVC: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         animateButton()
         // locationManager.requestWhenInUseAuthorization()
-        // locationManager.requestLocation()
+        // locationManager.requestLocation()b
     }
     
     @IBAction func startButtonPressed(_ sender: UIButton) {
