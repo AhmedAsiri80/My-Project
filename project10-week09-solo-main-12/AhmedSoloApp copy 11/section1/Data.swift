@@ -28,120 +28,120 @@ var List : Array<Item> = [
         logo: UIImage(named: "الغفار"),
         spe : "شششششششش "
     ),
-Item(
-    name: "المصور",
-    price1 : "",
-    logo: UIImage(named: "المصور"),
-    spe : ""
-),
-Item(
-    name: "الحي",
-    price1 : "",
-    logo: UIImage(named: "الحي"),
-    spe : ""
-),
-Item(
-    name: "النافع",
-    price1 : "",
-    logo: UIImage(named: "النافع"),
-    spe : " "
-
-),
-Item(
-    name: "السلام",
-    price1 : "",
-    logo: UIImage(named: "السلام"),
-    spe : " "
-
-),
-Item(
-    name: "الملك",
-    price1 : "",
-    logo: UIImage(named: "الملك"),
-    
-    spe : " "
-
-),
-Item(
-    name: "المميت",
-    price1 : "",
-    logo: UIImage(named: "المميت"),
-    spe : ""
-
-),
-Item(
-    name: "العظيم",
-    price1 : "",
-    logo: UIImage(named: "العظيم"),
-    spe :" "
-
-),
     Item(
-    name: "المجيب",
-    price1 : "",
-    logo: UIImage(named: "المجيب"),
-    spe : " "
-),
+        name: "المصور",
+        price1 : "",
+        logo: UIImage(named: "المصور"),
+        spe : ""
+    ),
     Item(
-    name: "الوهاب",
-    price1 : "",
-    logo: UIImage(named: "الوهاب"),
-    spe : " "
-),
+        name: "الحي",
+        price1 : "",
+        logo: UIImage(named: "الحي"),
+        spe : ""
+    ),
     Item(
-    name: "الصمد",
-    price1 : "",
-    logo: UIImage(named: "الصمد"),
-    spe : " "
-),
+        name: "النافع",
+        price1 : "",
+        logo: UIImage(named: "النافع"),
+        spe : " "
+        
+    ),
     Item(
-    name: "الوارث",
-    price1 : "",
-    logo: UIImage(named: "الوارث"),
-    spe : " "
-),
+        name: "السلام",
+        price1 : "",
+        logo: UIImage(named: "السلام"),
+        spe : " "
+        
+    ),
     Item(
-    name: "الباقي",
-    price1 : "",
-    logo: UIImage(named: "الباقي"),
-    spe : " "
-),
+        name: "الملك",
+        price1 : "",
+        logo: UIImage(named: "الملك"),
+        
+        spe : " "
+        
+    ),
     Item(
-    name: "الاخر",
-    price1 : "",
-    logo: UIImage(named: "الاخر"),
-    spe : " "
-),
+        name: "المميت",
+        price1 : "",
+        logo: UIImage(named: "المميت"),
+        spe : ""
+        
+    ),
     Item(
-    name: "الشكور",
-    price1 : "",
-    logo: UIImage(named: "الشكور"),
-    spe : " "
-),
+        name: "العظيم",
+        price1 : "",
+        logo: UIImage(named: "العظيم"),
+        spe :" "
+        
+    ),
     Item(
-    name: "الرشيد",
-    price1 : "",
-    logo: UIImage(named: "الرشيد"),
-    spe : " "
-),
+        name: "المجيب",
+        price1 : "",
+        logo: UIImage(named: "المجيب"),
+        spe : " "
+    ),
     Item(
-    name: "الشهيد",
-    price1 : "",
-    logo: UIImage(named: "الشهيد"),
-    spe : " "
-),
+        name: "الوهاب",
+        price1 : "",
+        logo: UIImage(named: "الوهاب"),
+        spe : " "
+    ),
     Item(
-    name: "المبدئ",
-    price1 : "",
-    logo: UIImage(named: "المبدئ"),
-    spe : " "
-),
+        name: "الصمد",
+        price1 : "",
+        logo: UIImage(named: "الصمد"),
+        spe : " "
+    ),
     Item(
-    name: "اللطيف",
-    price1 : "",
-    logo: UIImage(named: "اللطيف"),
-    spe : " "
-),
+        name: "الوارث",
+        price1 : "",
+        logo: UIImage(named: "الوارث"),
+        spe : " "
+    ),
+    Item(
+        name: "الباقي",
+        price1 : "",
+        logo: UIImage(named: "الباقي"),
+        spe : " "
+    ),
+    Item(
+        name: "الاخر",
+        price1 : "",
+        logo: UIImage(named: "الاخر"),
+        spe : " "
+    ),
+    Item(
+        name: "الشكور",
+        price1 : "",
+        logo: UIImage(named: "الشكور"),
+        spe : " "
+    ),
+    Item(
+        name: "الرشيد",
+        price1 : "",
+        logo: UIImage(named: "الرشيد"),
+        spe : " "
+    ),
+    Item(
+        name: "الشهيد",
+        price1 : "",
+        logo: UIImage(named: "الشهيد"),
+        spe : " "
+    ),
+    Item(
+        name: "المبدئ",
+        price1 : "",
+        logo: UIImage(named: "المبدئ"),
+        spe : " "
+    ),
+    Item(
+        name: "اللطيف",
+        price1 : "",
+        logo: UIImage(named: "اللطيف"),
+        spe : " "
+    ),
     Item(
         name: "الرحمن",
         price1 : "",

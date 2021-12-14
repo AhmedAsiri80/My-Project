@@ -12,7 +12,7 @@ class PagingCollectionVIew: UICollectionView {
     
     private var timer = Timer()
     var scrollInterval: Int = 2
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         self.isPagingEnabled = true
@@ -57,5 +57,5 @@ class PagingCollectionVIew: UICollectionView {
             }
         }
     }
-  
+    
 }

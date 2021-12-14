@@ -18,7 +18,7 @@ struct Reminder {
 
 struct Reminder2 {
     var reminder: String
-
+    
 }
 
 

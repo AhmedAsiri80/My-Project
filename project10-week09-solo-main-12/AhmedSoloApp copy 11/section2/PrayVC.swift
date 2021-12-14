@@ -23,8 +23,8 @@ class TimePray: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.lableDate.layer.cornerRadius = 20
-        
+        self.lableDate.layer.cornerRadius = 35
+        self.lableTime.layer.cornerRadius = 20
         
         view.backgroundColor = UIColor(named: "Color")
         tableView.dataSource = self
@@ -131,7 +131,7 @@ class PrayTime {
     var numIterations: NSInteger = 1        // number of iterations needed to compute times
     
     //------------------- Calc Method Parameters --------------------
-   
+    
     var methodParams: [CalculationMethod : [Any]] = [.Jafari  : [16, 0, 4, 0, 14],
                                                      .Karachi : [18, 1, 0, 0, 18],
                                                      .ISNA    : [15, 1, 0, 0, 15],

@@ -16,9 +16,9 @@ class Login: UIViewController {
     
     @IBOutlet weak var PassTF: UITextField!
     
-  //  @IBOutlet weak var sign: UIButton!
+    //  @IBOutlet weak var sign: UIButton!
     
-  //  @IBOutlet weak var login: UIButton!
+    //  @IBOutlet weak var login: UIButton!
     
     
     var uid:String = ""
@@ -27,16 +27,16 @@ class Login: UIViewController {
         view.backgroundColor = UIColor(named: "Color")
         
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-            backgroundImage.image = UIImage(named: "Image-10")
-            backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
-            self.view.insertSubview(backgroundImage, at: 0)
+        backgroundImage.image = UIImage(named: "Image-10")
+        backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
+        self.view.insertSubview(backgroundImage, at: 0)
         
         EmailTF.text = ""
         PassTF.text = ""
         
         //self.sign.layer.cornerRadius = 10
         
-       //FirebaseApp.configure() self.login.layer.cornerRadius = 10
+        //FirebaseApp.configure() self.login.layer.cornerRadius = 10
         
         
     }
@@ -80,8 +80,8 @@ class Login: UIViewController {
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let navigation = segue.destination as! UINavigationController
-//        let todoVC = navigation.topViewController as! profile
-//        todoVC.userId = uid
+        //        let todoVC = navigation.topViewController as! profile
+        //        todoVC.userId = uid
     }
     
 }

@@ -12,7 +12,7 @@ import FirebaseFirestore
 
 class ReminderVc: UIViewController {
     
-
+    
     
     
     @IBOutlet weak var tableView: UITableView!
@@ -178,5 +178,6 @@ extension ReminderVc {
     }
     
 }
+
 
 

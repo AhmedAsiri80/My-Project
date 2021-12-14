@@ -11,7 +11,7 @@ import UIKit
 
 class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSource , UICollectionViewDelegateFlowLayout, UISearchBarDelegate {
     
-   
+    
     var searchba: Array<Item> = List
     
     @IBOutlet weak var saerchbar: UISearchBar!
@@ -56,7 +56,7 @@ class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSour
         let screenwidth = view.bounds.size.width
         //return CGSize(width: 100, height: 100)
         return CGSize(width: screenwidth / 2, height: screenwidth / 2 )    }
-
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         let prouduct = searchba[indexPath.row]
@@ -70,7 +70,7 @@ class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSour
         let v2 = segue.destination as! VC2
         v2.selectedpro = sender as? Item
     }
-
+    
     @IBOutlet weak var picC: UICollectionView!
     
     override func viewWillAppear(_ animated: Bool) {
@@ -80,7 +80,7 @@ class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSour
         picC.reloadData()
         
     }
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -93,5 +93,5 @@ class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSour
         picC.dataSource = self
         // Do any additional setup after loading the view.
     }
-   
+    
 }

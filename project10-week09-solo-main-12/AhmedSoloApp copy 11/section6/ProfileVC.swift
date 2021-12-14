@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var collectionView: PagingCollectionVIew!
     
     let imageArray = ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg"]
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

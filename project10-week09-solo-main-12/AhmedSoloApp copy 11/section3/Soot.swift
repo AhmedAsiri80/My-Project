@@ -9,23 +9,23 @@ import Foundation
 
 import UIKit
 
-class ReminderVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
+class sootVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
     @IBOutlet weak var sootlable: UILabel!
     @IBOutlet var table: UITableView!
-
+    
     var songs = [Song]()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-       //
+        //
         self.sootlable.layer.cornerRadius = 20
         view.backgroundColor = UIColor(named: "Color")
         configureSongs()
         table.delegate = self
         table.dataSource = self
     }
-
+    
     func configureSongs() {
         songs.append(Song(name: "القرآن الكريم",
                           albumName: "عبدالعزيز الفقيه",
@@ -56,7 +56,7 @@ class ReminderVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                           albumName: "عبدالعزيز الفقيه",
                           artistName: "تشغيل",
                           imageName: "فقيه",
-                          trackName: "song1"))
+                          trackName: "song6"))
         songs.append(Song(name: "تعليق الحرم المكي",
                           albumName: "محمد الصبيحي",
                           artistName: "تشغيل",
@@ -103,13 +103,13 @@ class ReminderVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                           imageName: "تفسير",
                           trackName: "song5"))
     }
-
+    
     // Table
-
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return songs.count
     }
-
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "123", for: indexPath)
         let song = songs[indexPath.row]
@@ -120,17 +120,17 @@ class ReminderVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         cell.imageView?.image = UIImage(named: song.imageName)
         cell.textLabel?.font = UIFont(name: "Helvetica-Bold", size: 18)
         cell.detailTextLabel?.font = UIFont(name: "Helvetica", size: 17)
-
+        
         return cell
     }
-
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
-
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-
+        
         // present the player
         let position = indexPath.row
         guard let vc = storyboard?.instantiateViewController(identifier: "player") as? PlayerViewController else {
@@ -140,8 +140,8 @@ class ReminderVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         vc.position = position
         present(vc, animated: true)
     }
-
-
+    
+    
 }
 
 struct Song {
