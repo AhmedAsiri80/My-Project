@@ -18,9 +18,9 @@ class Cell1 : UICollectionViewCell {
     func setup(Item : Item){
         logop.image = Item.logo
         lName.text = Item.name
-        logop.layer.cornerRadius = 40
+        logop.layer.cornerRadius = 50
         // price1.text = "\(Item.price1)"
-        
+      
     }
     
     
@@ -47,6 +47,9 @@ class VC2 : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+            
+            self.Image1.layer.cornerRadius = 15
         
         
         if selectedpro != nil{
@@ -116,10 +119,11 @@ class Cell3 : UITableViewCell{
     @IBOutlet weak var imgc: UIImageView!
     @IBOutlet weak var pricec: UILabel!
     @IBOutlet weak var namec: UILabel!
-    
+   
     func setup(Item : Item){
         namec.text = Item.name
         imgc.image = Item.logo
         pricec.text = "\(Item.price1)"
     }
+    
 }

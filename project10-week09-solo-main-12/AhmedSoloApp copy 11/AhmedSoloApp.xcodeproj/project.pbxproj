@@ -22,7 +22,7 @@
 		FC4F1A462754DE4100C9DC0F /* ReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A452754DE4100C9DC0F /* ReminderVC.swift */; };
 		FC4F1A482754DE6300C9DC0F /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A472754DE6300C9DC0F /* ReminderCell.swift */; };
 		FC4F1A58275598C300C9DC0F /* TasbihVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A57275598C300C9DC0F /* TasbihVC.swift */; };
-		FC53230227623A91000D8056 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53230127623A91000D8056 /* ProfileVC.swift */; };
+		FC53230227623A91000D8056 /* ManasatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53230127623A91000D8056 /* ManasatVC.swift */; };
 		FC5EC1EF2767229800C1F23F /* GestureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EC1EE2767229800C1F23F /* GestureVC.swift */; };
 		FC5EC1F22767266200C1F23F /* PageImageAuto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EC1F12767266200C1F23F /* PageImageAuto.swift */; };
 		FC5EC1F42767274D00C1F23F /* Data1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EC1F32767274D00C1F23F /* Data1.swift */; };
@@ -38,6 +38,10 @@
 		FC962E0C27539370006B84C7 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC962E0B27539370006B84C7 /* MainVC.swift */; };
 		FC962E0E27539397006B84C7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC962E0D27539397006B84C7 /* Data.swift */; };
 		FC962E1027539562006B84C7 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC962E0F27539562006B84C7 /* MainCell.swift */; };
+		FC97E36F2768EE6F00BF0554 /* Kufam-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC97E36E2768EE6E00BF0554 /* Kufam-Italic-VariableFont_wght.ttf */; };
+		FC97E3712768EF7700BF0554 /* Vibes-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC97E3702768EF7700BF0554 /* Vibes-Regular.ttf */; };
+		FC97E373276904E400BF0554 /* ArefRuqaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC97E372276904E400BF0554 /* ArefRuqaa-Regular.ttf */; };
+		FC97E3752769052400BF0554 /* NotoNastaliqUrdu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC97E3742769052400BF0554 /* NotoNastaliqUrdu-Regular.ttf */; };
 		FCD1A2C12768739C00296D4B /* ProfileVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1A2C02768739C00296D4B /* ProfileVC2.swift */; };
 		FCD1A2C32768847800296D4B /* MapVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1A2C22768847800296D4B /* MapVC1.swift */; };
 		FCD1A2C527688D8A00296D4B /* song5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCD1A2C427688D8A00296D4B /* song5.mp3 */; };
@@ -62,7 +66,7 @@
 		FC4F1A452754DE4100C9DC0F /* ReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderVC.swift; sourceTree = "<group>"; };
 		FC4F1A472754DE6300C9DC0F /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
 		FC4F1A57275598C300C9DC0F /* TasbihVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasbihVC.swift; sourceTree = "<group>"; };
-		FC53230127623A91000D8056 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		FC53230127623A91000D8056 /* ManasatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManasatVC.swift; sourceTree = "<group>"; };
 		FC5EC1EE2767229800C1F23F /* GestureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureVC.swift; sourceTree = "<group>"; };
 		FC5EC1F12767266200C1F23F /* PageImageAuto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageImageAuto.swift; sourceTree = "<group>"; };
 		FC5EC1F32767274D00C1F23F /* Data1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data1.swift; sourceTree = "<group>"; };
@@ -80,6 +84,10 @@
 		FC962E0B27539370006B84C7 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		FC962E0D27539397006B84C7 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		FC962E0F27539562006B84C7 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		FC97E36E2768EE6E00BF0554 /* Kufam-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		FC97E3702768EF7700BF0554 /* Vibes-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vibes-Regular.ttf"; sourceTree = "<group>"; };
+		FC97E372276904E400BF0554 /* ArefRuqaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArefRuqaa-Regular.ttf"; sourceTree = "<group>"; };
+		FC97E3742769052400BF0554 /* NotoNastaliqUrdu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoNastaliqUrdu-Regular.ttf"; sourceTree = "<group>"; };
 		FCD1A2C02768739C00296D4B /* ProfileVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC2.swift; sourceTree = "<group>"; };
 		FCD1A2C22768847800296D4B /* MapVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC1.swift; sourceTree = "<group>"; };
 		FCD1A2C427688D8A00296D4B /* song5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song5.mp3; sourceTree = "<group>"; };
@@ -127,7 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				FC3A663A2760CE0A00E2BF9A /* LoginVC.swift */,
-				FC53230127623A91000D8056 /* ProfileVC.swift */,
+				FC53230127623A91000D8056 /* ManasatVC.swift */,
+				FCD1A2C02768739C00296D4B /* ProfileVC2.swift */,
 				FC24476827562FBF005B0643 /* WebVC.swift */,
 				FC5EC1F12767266200C1F23F /* PageImageAuto.swift */,
 			);
@@ -194,7 +203,6 @@
 		FC962DEB27538FB0006B84C7 = {
 			isa = PBXGroup;
 			children = (
-				FCD1A2C02768739C00296D4B /* ProfileVC2.swift */,
 				FC962DF627538FB0006B84C7 /* AhmedSoloApp */,
 				FC8E468C2753DFA500B6905D /* section1 */,
 				FC8E468D2753DFC100B6905D /* section2 */,
@@ -220,6 +228,10 @@
 		FC962DF627538FB0006B84C7 /* AhmedSoloApp */ = {
 			isa = PBXGroup;
 			children = (
+				FC97E3702768EF7700BF0554 /* Vibes-Regular.ttf */,
+				FC97E36E2768EE6E00BF0554 /* Kufam-Italic-VariableFont_wght.ttf */,
+				FC97E3742769052400BF0554 /* NotoNastaliqUrdu-Regular.ttf */,
+				FC97E372276904E400BF0554 /* ArefRuqaa-Regular.ttf */,
 				FC962DF727538FB0006B84C7 /* AppDelegate.swift */,
 				FC962DF927538FB0006B84C7 /* SceneDelegate.swift */,
 				FC15B2C22758F07000DD76BB /* Assets.xcassets */,
@@ -293,8 +305,12 @@
 			files = (
 				FCD1A2CB27688EC000296D4B /* song6.mp3 in Resources */,
 				FC7E38CF2753FC7000AEAF5D /* song3.mp3 in Resources */,
+				FC97E3712768EF7700BF0554 /* Vibes-Regular.ttf in Resources */,
 				FC2A047C2764E52C00FBE4E3 /* Quran.pdf in Resources */,
 				FC36C98A275935500078CCAB /* song1.mp3 in Resources */,
+				FC97E36F2768EE6F00BF0554 /* Kufam-Italic-VariableFont_wght.ttf in Resources */,
+				FC97E3752769052400BF0554 /* NotoNastaliqUrdu-Regular.ttf in Resources */,
+				FC97E373276904E400BF0554 /* ArefRuqaa-Regular.ttf in Resources */,
 				FC962E0427538FB0006B84C7 /* LaunchScreen.storyboard in Resources */,
 				FCD1A2C527688D8A00296D4B /* song5.mp3 in Resources */,
 				FC7E38CB2753F64E00AEAF5D /* song2.mp3 in Resources */,
@@ -375,7 +391,7 @@
 				FC4F1A482754DE6300C9DC0F /* ReminderCell.swift in Sources */,
 				FC3A6639276095BC00E2BF9A /* QiblahVC.swift in Sources */,
 				FC8E468B2753DE3200B6905D /* PrayVC.swift in Sources */,
-				FC53230227623A91000D8056 /* ProfileVC.swift in Sources */,
+				FC53230227623A91000D8056 /* ManasatVC.swift in Sources */,
 				FC3A663F27610DCB00E2BF9A /* AnimationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

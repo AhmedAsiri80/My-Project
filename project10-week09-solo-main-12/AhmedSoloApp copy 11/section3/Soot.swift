@@ -42,20 +42,21 @@ class sootVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                           artistName: "تشغيل",
                           imageName: "شيخ",
                           trackName: "song2"))
-        songs.append(Song(name: "حديث شريف",
-                          albumName: "رواه ابو هريره",
+        songs.append(Song(name: "قران كريم",
+                          albumName: "الشيخ علي جابر",
                           artistName: "تشغيل",
-                          imageName: "حديث",
+                          imageName: "علي جابر2",
                           trackName: "song4"))
-        songs.append(Song(name: "تفسير",
-                          albumName: "الشيخ الشعرواي",
+        songs.append(Song(name: "القران الكريم",
+                          albumName: "الشيخ علي جابر",
                           artistName: "تشغيل",
-                          imageName: "تفسير",
+                          imageName: "علي جابر",
                           trackName: "song5"))
+       
         songs.append(Song(name: "القرآن الكريم",
-                          albumName: "عبدالعزيز الفقيه",
+                          albumName: "الشيخ سعود الشريم",
                           artistName: "تشغيل",
-                          imageName: "فقيه",
+                          imageName: "الشريم",
                           trackName: "song6"))
         songs.append(Song(name: "تعليق الحرم المكي",
                           albumName: "محمد الصبيحي",
@@ -67,16 +68,7 @@ class sootVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                           artistName: "تشغيل",
                           imageName: "شيخ",
                           trackName: "song2"))
-        songs.append(Song(name: "حديث شريف",
-                          albumName: "رواه ابو هريره",
-                          artistName: "تشغيل",
-                          imageName: "حديث",
-                          trackName: "song4"))
-        songs.append(Song(name: "تفسير",
-                          albumName: "الشيخ الشعرواي",
-                          artistName: "تشغيل",
-                          imageName: "تفسير",
-                          trackName: "song5"))
+        
         songs.append(Song(name: "القرآن الكريم",
                           albumName: "عبدالعزيز الفقيه",
                           artistName: "تشغيل",

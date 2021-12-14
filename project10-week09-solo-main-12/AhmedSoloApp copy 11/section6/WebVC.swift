@@ -14,7 +14,7 @@ import SideMenu
 class WebVC : UIViewController, YTPlayerViewDelegate {
     
     @IBOutlet weak var playtwo: YTPlayerView!
-    //@IBOutlet weak var playerVedio: YTPlayerView!
+    @IBOutlet weak var playerVedio: YTPlayerView!
     // @IBOutlet weak var playerVedio3: YTPlayerView!
     
     @IBAction func webadd(_ sender: UIButton) {
@@ -33,12 +33,12 @@ class WebVC : UIViewController, YTPlayerViewDelegate {
         view.backgroundColor = UIColor(named: "Color")
         
         
-        playtwo.load(withVideoId: "1tT-IlDd1bE", playerVars: ["playsinline": "1"])
+        playtwo.load(withVideoId: "i1gc-N4A1ug", playerVars: ["playsinline": "1"])
         playtwo.delegate = self
-        //
-        //        playerVedio3.load(withVideoId: "g1WJI9O6fyA", playerVars: ["playsinline": "1"])
-        //        playerVedio3.delegate = self
-        //
+        
+        playerVedio.load(withVideoId: "eitBElIDREY", playerVars: ["playsinline": "1"])
+        playerVedio.delegate = self
+        
     }
     
 }

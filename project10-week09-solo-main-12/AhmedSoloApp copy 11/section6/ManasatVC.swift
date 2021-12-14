@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MansatVC: UIViewController {
     
     
     @IBOutlet weak var pageControll: UIPageControl!
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 }
 
 
-extension ViewController {
+extension MansatVC {
     
     func initCollectionView() {
         collectionView.scrollInterval = 2
@@ -39,7 +39,7 @@ extension ViewController {
     }
 }
 
-extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension MansatVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return imageArray.count
