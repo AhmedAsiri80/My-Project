@@ -170,7 +170,7 @@
                                     <segue destination="8EU-RL-4UR" kind="show" id="dU0-W2-eXx"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="اسماء الله" translatesAutoresizingMaskIntoConstraints="NO" id="QN1-3V-ZIz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Allah-1" translatesAutoresizingMaskIntoConstraints="NO" id="QN1-3V-ZIz">
                                 <rect key="frame" x="153" y="712" width="112" height="64"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="owi-Ee-nor">
@@ -327,17 +327,14 @@
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00.00.00" textAlignment="center" lineBreakMode="clip" baselineAdjustment="none" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3m-6l-z2C">
                                 <rect key="frame" x="31" y="217" width="173" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="173" id="FXN-Zk-BTh"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Kufam-Italic" family="Kufam" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Kufam-Italic" family="Kufam" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" name="AccentColor"/>
                                 <color key="shadowColor" systemColor="tintColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التاريخ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBB-aq-g3c">
-                                <rect key="frame" x="38" y="259" width="158" height="52"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <rect key="frame" x="38" y="260" width="145" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -348,35 +345,36 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="X3Z-JK-zdW" secondAttribute="trailing" id="0AF-vr-0Wt"/>
                             <constraint firstItem="LFb-iJ-Nbj" firstAttribute="trailing" secondItem="NAn-gU-Tk9" secondAttribute="trailing" id="4ip-1i-mWY"/>
-                            <constraint firstItem="h3m-6l-z2C" firstAttribute="leading" secondItem="uDh-Nd-3bU" secondAttribute="leading" constant="31" id="56w-vH-Ad7"/>
                             <constraint firstItem="X3Z-JK-zdW" firstAttribute="trailing" secondItem="LFb-iJ-Nbj" secondAttribute="trailing" id="7H9-oA-rP1"/>
                             <constraint firstItem="LFb-iJ-Nbj" firstAttribute="top" secondItem="aX6-sy-dla" secondAttribute="bottom" constant="6" id="8vv-pI-vm5"/>
+                            <constraint firstItem="kBB-aq-g3c" firstAttribute="centerY" secondItem="LFb-iJ-Nbj" secondAttribute="centerY" id="AYH-yA-DA6"/>
+                            <constraint firstItem="h3m-6l-z2C" firstAttribute="leading" secondItem="uDh-Nd-3bU" secondAttribute="leading" constant="31" id="CGQ-Cd-WrW"/>
                             <constraint firstItem="X3Z-JK-zdW" firstAttribute="centerY" secondItem="VrP-Om-hx1" secondAttribute="centerY" constant="-159" id="ChW-gn-sRV"/>
+                            <constraint firstItem="kBB-aq-g3c" firstAttribute="leading" secondItem="uDh-Nd-3bU" secondAttribute="leading" constant="38" id="Dp7-BA-Kkx"/>
                             <constraint firstItem="NAn-gU-Tk9" firstAttribute="top" secondItem="X3Z-JK-zdW" secondAttribute="bottom" constant="45" id="FnS-qZ-GgX"/>
                             <constraint firstAttribute="bottom" secondItem="NAn-gU-Tk9" secondAttribute="bottom" constant="-51" id="H9p-aC-RN8"/>
-                            <constraint firstItem="kBB-aq-g3c" firstAttribute="centerY" secondItem="VrP-Om-hx1" secondAttribute="centerY" constant="-163" id="HDR-ha-JCM"/>
-                            <constraint firstItem="h3m-6l-z2C" firstAttribute="leading" secondItem="kBB-aq-g3c" secondAttribute="leading" constant="-7" id="ITE-Sd-2vm"/>
                             <constraint firstItem="NAn-gU-Tk9" firstAttribute="top" secondItem="LFb-iJ-Nbj" secondAttribute="bottom" constant="51" id="Iwp-PR-UUr"/>
                             <constraint firstItem="X3Z-JK-zdW" firstAttribute="top" secondItem="aX6-sy-dla" secondAttribute="bottom" constant="8" id="JjB-pz-7Pi"/>
                             <constraint firstItem="NAn-gU-Tk9" firstAttribute="leading" secondItem="uUq-t0-NG6" secondAttribute="leading" constant="22" id="MOn-Ja-5GP"/>
                             <constraint firstItem="aX6-sy-dla" firstAttribute="centerY" secondItem="VrP-Om-hx1" secondAttribute="centerY" constant="-314.5" id="MUp-OY-bTu"/>
                             <constraint firstItem="X3Z-JK-zdW" firstAttribute="trailing" secondItem="NAn-gU-Tk9" secondAttribute="trailing" id="P2X-fD-7FQ"/>
+                            <constraint firstItem="kBB-aq-g3c" firstAttribute="top" secondItem="uDh-Nd-3bU" secondAttribute="top" constant="216" id="WKy-dp-WmF"/>
+                            <constraint firstItem="kBB-aq-g3c" firstAttribute="centerY" secondItem="VrP-Om-hx1" secondAttribute="centerY" constant="-163" id="XYf-8u-fOY"/>
                             <constraint firstItem="aX6-sy-dla" firstAttribute="top" secondItem="uUq-t0-NG6" secondAttribute="top" constant="44" id="ZjM-Vq-ffS"/>
-                            <constraint firstItem="h3m-6l-z2C" firstAttribute="centerX" secondItem="VrP-Om-hx1" secondAttribute="centerX" constant="-89.5" id="as6-N0-Bpn"/>
-                            <constraint firstItem="kBB-aq-g3c" firstAttribute="centerX" secondItem="VrP-Om-hx1" secondAttribute="centerX" constant="-90" id="b5C-OU-9ai"/>
+                            <constraint firstItem="kBB-aq-g3c" firstAttribute="centerX" secondItem="VrP-Om-hx1" secondAttribute="centerX" constant="-96.5" id="bN3-Uz-pLO"/>
+                            <constraint firstItem="NAn-gU-Tk9" firstAttribute="top" secondItem="h3m-6l-z2C" secondAttribute="bottom" constant="123" id="bTi-PQ-cwN"/>
                             <constraint firstItem="uDh-Nd-3bU" firstAttribute="trailing" secondItem="aX6-sy-dla" secondAttribute="trailing" constant="13" id="bv3-j3-Glw"/>
                             <constraint firstItem="aX6-sy-dla" firstAttribute="top" secondItem="uDh-Nd-3bU" secondAttribute="top" id="cx0-vZ-1mq"/>
-                            <constraint firstItem="LFb-iJ-Nbj" firstAttribute="centerY" secondItem="kBB-aq-g3c" secondAttribute="centerY" id="deD-lS-XTB"/>
                             <constraint firstItem="aX6-sy-dla" firstAttribute="centerX" secondItem="VrP-Om-hx1" secondAttribute="centerX" constant="104.5" id="ess-Di-HoS"/>
-                            <constraint firstItem="kBB-aq-g3c" firstAttribute="top" secondItem="h3m-6l-z2C" secondAttribute="bottom" constant="-10" id="jjz-lE-yE6"/>
-                            <constraint firstItem="h3m-6l-z2C" firstAttribute="top" secondItem="uDh-Nd-3bU" secondAttribute="top" constant="173" id="k2q-nx-YLp"/>
+                            <constraint firstItem="aX6-sy-dla" firstAttribute="leading" secondItem="h3m-6l-z2C" secondAttribute="trailing" constant="18" id="hNS-vz-hBO"/>
+                            <constraint firstItem="NAn-gU-Tk9" firstAttribute="top" secondItem="kBB-aq-g3c" secondAttribute="bottom" constant="82" id="iUe-dI-5mQ"/>
                             <constraint firstItem="X3Z-JK-zdW" firstAttribute="centerX" secondItem="VrP-Om-hx1" secondAttribute="centerX" constant="154.5" id="mZU-QC-9XP"/>
                             <constraint firstItem="X3Z-JK-zdW" firstAttribute="top" secondItem="VrP-Om-hx1" secondAttribute="top" constant="231" id="mcQ-A5-2FS"/>
-                            <constraint firstItem="h3m-6l-z2C" firstAttribute="centerY" secondItem="VrP-Om-hx1" secondAttribute="centerY" constant="-205" id="pa7-Ck-bsp"/>
-                            <constraint firstItem="h3m-6l-z2C" firstAttribute="trailing" secondItem="kBB-aq-g3c" secondAttribute="trailing" constant="8" id="qwK-wc-TGU"/>
                             <constraint firstItem="aX6-sy-dla" firstAttribute="leading" secondItem="uDh-Nd-3bU" secondAttribute="leading" constant="222" id="rUB-az-gfq"/>
                             <constraint firstItem="NAn-gU-Tk9" firstAttribute="top" secondItem="uUq-t0-NG6" secondAttribute="bottom" constant="-1" id="toh-2K-FLW"/>
-                            <constraint firstItem="X3Z-JK-zdW" firstAttribute="baseline" secondItem="kBB-aq-g3c" secondAttribute="firstBaseline" constant="18" id="uSW-7S-MzL"/>
+                            <constraint firstItem="h3m-6l-z2C" firstAttribute="top" secondItem="uDh-Nd-3bU" secondAttribute="top" constant="173" id="uIA-kI-cE7"/>
+                            <constraint firstItem="h3m-6l-z2C" firstAttribute="centerX" secondItem="VrP-Om-hx1" secondAttribute="centerX" constant="-89.5" id="wQd-Kz-kfZ"/>
+                            <constraint firstItem="h3m-6l-z2C" firstAttribute="centerY" secondItem="VrP-Om-hx1" secondAttribute="centerY" constant="-205" id="xLP-Wc-eve"/>
                             <constraint firstItem="NAn-gU-Tk9" firstAttribute="leading" secondItem="VrP-Om-hx1" secondAttribute="leading" id="xj1-xD-hzC"/>
                             <constraint firstItem="X3Z-JK-zdW" firstAttribute="trailing" secondItem="uUq-t0-NG6" secondAttribute="trailing" constant="-33" id="zpP-iL-jH5"/>
                         </constraints>
@@ -627,7 +625,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vhe-OK-FTc" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="254" y="-721"/>
+            <point key="canvasLocation" x="322" y="-721"/>
         </scene>
         <!--Add View Controller-->
         <scene sceneID="qav-VX-ptS">
@@ -1147,6 +1145,10 @@
                                     </imageView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="eI3-4T-eIR" firstAttribute="top" secondItem="x02-Vu-viZ" secondAttribute="top" id="7yQ-fA-IXt"/>
+                                    <constraint firstItem="eI3-4T-eIR" firstAttribute="leading" secondItem="x02-Vu-viZ" secondAttribute="leading" constant="11" id="EiO-yT-5tI"/>
+                                    <constraint firstAttribute="trailing" secondItem="eI3-4T-eIR" secondAttribute="trailing" constant="11" id="Lon-Qb-80W"/>
+                                    <constraint firstAttribute="bottom" secondItem="eI3-4T-eIR" secondAttribute="bottom" id="bCj-5r-J5X"/>
                                     <constraint firstItem="eI3-4T-eIR" firstAttribute="centerX" secondItem="x02-Vu-viZ" secondAttribute="centerX" id="gfB-Xr-ZY0"/>
                                     <constraint firstItem="eI3-4T-eIR" firstAttribute="centerY" secondItem="x02-Vu-viZ" secondAttribute="centerY" id="yf8-GH-Fyk"/>
                                 </constraints>
@@ -1178,9 +1180,14 @@
                         <constraints>
                             <constraint firstItem="JlB-4b-qUE" firstAttribute="centerX" secondItem="TIT-0c-cgh" secondAttribute="centerX" id="2vI-FF-4ER"/>
                             <constraint firstItem="x02-Vu-viZ" firstAttribute="top" secondItem="WdV-Jn-QAf" secondAttribute="top" constant="124" id="821-dT-8aa"/>
+                            <constraint firstItem="B34-bp-QfR" firstAttribute="leading" secondItem="WdV-Jn-QAf" secondAttribute="leading" constant="97.5" id="8Hg-AG-qKl"/>
+                            <constraint firstItem="JlB-4b-qUE" firstAttribute="top" secondItem="TIT-0c-cgh" secondAttribute="top" constant="64" id="9KN-jD-l83"/>
+                            <constraint firstItem="JlB-4b-qUE" firstAttribute="trailing" secondItem="WdV-Jn-QAf" secondAttribute="trailing" id="AhX-Ba-Zs4"/>
                             <constraint firstItem="x02-Vu-viZ" firstAttribute="centerX" secondItem="TIT-0c-cgh" secondAttribute="centerX" id="BVl-CP-OIM"/>
+                            <constraint firstItem="B34-bp-QfR" firstAttribute="top" secondItem="x02-Vu-viZ" secondAttribute="bottom" constant="120" id="GMe-cl-co4"/>
                             <constraint firstItem="B34-bp-QfR" firstAttribute="centerX" secondItem="TIT-0c-cgh" secondAttribute="centerX" id="Hc9-lw-KoK"/>
                             <constraint firstItem="x02-Vu-viZ" firstAttribute="centerX" secondItem="TIT-0c-cgh" secondAttribute="centerX" id="OtR-BS-YjN"/>
+                            <constraint firstItem="WdV-Jn-QAf" firstAttribute="bottom" secondItem="B34-bp-QfR" secondAttribute="bottom" constant="146" id="SNb-qD-sKX"/>
                             <constraint firstItem="x02-Vu-viZ" firstAttribute="top" secondItem="JlB-4b-qUE" secondAttribute="bottom" constant="8" id="Ved-i3-aD2"/>
                             <constraint firstItem="x02-Vu-viZ" firstAttribute="leading" secondItem="WdV-Jn-QAf" secondAttribute="leading" constant="70" id="Wdc-DE-0BH"/>
                             <constraint firstItem="JlB-4b-qUE" firstAttribute="top" secondItem="TIT-0c-cgh" secondAttribute="topMargin" constant="-24" id="XrN-Eg-QIV"/>
@@ -1190,8 +1197,10 @@
                             <constraint firstItem="JlB-4b-qUE" firstAttribute="leading" secondItem="TIT-0c-cgh" secondAttribute="leadingMargin" constant="-20" id="i4P-0Y-h2A"/>
                             <constraint firstItem="JlB-4b-qUE" firstAttribute="centerX" secondItem="x02-Vu-viZ" secondAttribute="centerX" id="iKg-Gc-nXK"/>
                             <constraint firstItem="x02-Vu-viZ" firstAttribute="centerY" secondItem="TIT-0c-cgh" secondAttribute="centerY" constant="-98.5" id="jYD-b6-WVQ"/>
+                            <constraint firstItem="WdV-Jn-QAf" firstAttribute="trailing" secondItem="B34-bp-QfR" secondAttribute="trailing" constant="97.5" id="jeh-08-IZJ"/>
                             <constraint firstItem="WdV-Jn-QAf" firstAttribute="trailing" secondItem="x02-Vu-viZ" secondAttribute="trailing" constant="70" id="jjo-3t-fmy"/>
                             <constraint firstItem="B34-bp-QfR" firstAttribute="centerY" secondItem="TIT-0c-cgh" secondAttribute="centerY" constant="189" id="kfb-gP-ial"/>
+                            <constraint firstItem="JlB-4b-qUE" firstAttribute="leading" secondItem="WdV-Jn-QAf" secondAttribute="leading" id="vHa-jF-HQf"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Reminder" image="square.and.pencil" catalog="system" id="8r6-a8-Sur"/>
@@ -1726,6 +1735,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Allah-1" width="567" height="567"/>
         <image name="bookmark.square.fill" catalog="system" width="128" height="114"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="link.circle.fill" catalog="system" width="128" height="121"/>
@@ -1738,7 +1748,6 @@
         <image name="احسان" width="300" height="168"/>
         <image name="اذكار" width="225" height="225"/>
         <image name="اذكار دائرة" width="1206" height="1520"/>
-        <image name="اسماء الله" width="1273" height="1199"/>
         <image name="الباقي" width="484" height="405"/>
         <image name="الساعه" width="780" height="374"/>
         <image name="السفر٢" width="475" height="329"/>
