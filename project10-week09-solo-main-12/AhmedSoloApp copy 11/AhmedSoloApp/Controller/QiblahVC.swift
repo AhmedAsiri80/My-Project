@@ -36,7 +36,7 @@ class QiblahDirectionPage: UIViewController {
             directionImage.frame = CGRect(x:screenWidth/2-screenWidth/4 ,y:navBarHeight ,width:screenWidth/2 ,height:screenHeight/4)
             if UIDevice().userInterfaceIdiom == .phone {
                 switch UIScreen.main.nativeBounds.height {
-                   
+                    
                 case 2436:
                     print("iPhone X")
                     directionImage.frame = CGRect(x:screenWidth/2-screenWidth/4 ,y:navBarHeight ,width:screenWidth/2 ,height:(screenHeight/4)-40)

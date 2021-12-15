@@ -31,69 +31,69 @@ class sootVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                           albumName: "عبدالعزيز الفقيه",
                           artistName: "تشغيل",
                           imageName: "فقيه",
-                          trackName: "song1"))
+                          trackName: "Voice1"))
         songs.append(Song(name: "تعليق الحرم المكي",
                           albumName: "محمد الصبيحي",
                           artistName: "تشغيل",
                           imageName: "محمد",
-                          trackName: "song3"))
+                          trackName: "Voice3"))
         songs.append(Song(name: "سيرة عطرة",
                           albumName: "الشيخ المغامسي",
                           artistName: "تشغيل",
                           imageName: "شيخ",
-                          trackName: "song2"))
+                          trackName: "Voice2"))
         songs.append(Song(name: "قران كريم",
                           albumName: "الشيخ علي جابر",
                           artistName: "تشغيل",
                           imageName: "علي جابر2",
-                          trackName: "song4"))
+                          trackName: "Voice4"))
         songs.append(Song(name: "القران الكريم",
                           albumName: "الشيخ علي جابر",
                           artistName: "تشغيل",
                           imageName: "علي جابر",
-                          trackName: "song5"))
-       
+                          trackName: "Voice5"))
+        
         songs.append(Song(name: "القرآن الكريم",
                           albumName: "الشيخ سعود الشريم",
                           artistName: "تشغيل",
                           imageName: "الشريم",
-                          trackName: "song6"))
+                          trackName: "Voice6"))
         songs.append(Song(name: "تعليق الحرم المكي",
                           albumName: "محمد الصبيحي",
                           artistName: "تشغيل",
                           imageName: "محمد",
-                          trackName: "song3"))
+                          trackName: "Voice3"))
         songs.append(Song(name: "سيرة عطرة",
                           albumName: "الشيخ المغامسي",
                           artistName: "تشغيل",
                           imageName: "شيخ",
-                          trackName: "song2"))
+                          trackName: "Voice2"))
         
         songs.append(Song(name: "القرآن الكريم",
                           albumName: "عبدالعزيز الفقيه",
                           artistName: "تشغيل",
                           imageName: "فقيه",
-                          trackName: "song1"))
+                          trackName: "Voice1"))
         songs.append(Song(name: "تعليق الحرم المكي",
                           albumName: "محمد الصبيحي",
                           artistName: "تشغيل",
                           imageName: "محمد",
-                          trackName: "song3"))
+                          trackName: "Voice3"))
         songs.append(Song(name: "سيرة عطرة",
                           albumName: "الشيخ المغامسي",
                           artistName: "تشغيل",
                           imageName: "شيخ",
-                          trackName: "song2"))
+                          trackName: "Voice2"))
         songs.append(Song(name: "حديث شريف",
                           albumName: "رواه ابو هريره",
                           artistName: "تشغيل",
                           imageName: "حديث",
-                          trackName: "song4"))
+                          trackName: "Voice4"))
         songs.append(Song(name: "تفسير",
                           albumName: "الشيخ الشعرواي",
                           artistName: "تشغيل",
                           imageName: "تفسير",
-                          trackName: "song5"))
+                          trackName: "Voice5"))
     }
     
     // Table
@@ -136,10 +136,3 @@ class sootVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
 }
 
-struct Song {
-    let name: String
-    let albumName: String
-    let artistName: String
-    let imageName: String
-    let trackName: String
-}
