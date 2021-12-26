@@ -17,13 +17,13 @@ class Youtube0 : UIViewController , YTPlayerViewDelegate {
     @IBOutlet weak var U3: YTPlayerView!
     // @IBOutlet weak var U4: YTPlayerView!
     @IBOutlet weak var U5: YTPlayerView!
-    @IBOutlet weak var U6: YTPlayerView!
+  //  @IBOutlet weak var U6: YTPlayerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
-        U1.load(withVideoId: "BvEVRuIo_kA", playerVars: ["playsinline": "1"])
+        U1.load(withVideoId: "DgVYT2mTFZ8", playerVars: ["playsinline": "1"])
         U1.delegate = self
         
         //        U2.load(withVideoId: "BvEVRuIo_kA", playerVars: ["playsinline": "1"])

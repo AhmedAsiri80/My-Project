@@ -25,18 +25,18 @@ class ReminderVc: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func btnAdd(_ sender: Any) {
-        //Sayfayı bulamaıyorsa hiç birşey yapma
+        
         guard  let vc = storyboard?.instantiateViewController(identifier: "AddViewController") as? AddViewController else { print("Bulmadı")
             return }
         
         print("Buldu")
-        //eger buluyorsa
+        
         vc.title = "New Reminder"
         
         vc.completion = { (title,body,date) in
             
             DispatchQueue.main.async {
-                //Öncesine git
+                
                 self.navigationController?.popViewController(animated: true)
                 
                 let newReminder = Reminder(title: title, body: body, date: date, identifier: "id_\(title)")
@@ -45,7 +45,7 @@ class ReminderVc: UIViewController {
                 
                 self.tableView.reloadData()
                 
-                //Hatırlacıda bildirim vermek
+                
                 let content = UNMutableNotificationContent()
                 content.title = title
                 content.sound = .default
@@ -53,7 +53,7 @@ class ReminderVc: UIViewController {
                 
                 let targetDate = date
                 
-                //repeats false ile sadece 1 kere çalışacak
+                
                 let trigger =  UNCalendarNotificationTrigger(dateMatching: Calendar.current.dateComponents([.year,.month,.day,.hour,.minute,.second], from: targetDate), repeats: false)
                 
                 let reguest = UNNotificationRequest(identifier: "some_long_id", content: content, trigger: trigger)
@@ -162,7 +162,7 @@ extension ReminderVc {
         
         let targetDate = Date().addingTimeInterval(10)
         
-        //repeats false ile sadece 1 kere çalışacak
+        
         let trigger =  UNCalendarNotificationTrigger(dateMatching: Calendar.current.dateComponents([.year,.month,.day,.hour,.minute,.second], from: targetDate), repeats: false)
         
         let reguest = UNNotificationRequest(identifier: "some_long_id", content: content, trigger: trigger)
@@ -178,6 +178,4 @@ extension ReminderVc {
     }
     
 }
-
-
 
