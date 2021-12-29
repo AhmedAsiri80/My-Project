@@ -109,7 +109,7 @@ class ProfileVC : UIViewController, UIImagePickerControllerDelegate,UITextFieldD
     lazy var profileImage: UIImageView = {
         let view = UIImageView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .white
+        view.backgroundColor = .gray
         view.layer.cornerRadius = 25
         view.isUserInteractionEnabled = true
         return view

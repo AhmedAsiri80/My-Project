@@ -27,74 +27,94 @@ class sootVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func configureSongs() {
-        songs.append(Song(name: "القرآن الكريم",
-                          albumName: "عبدالعزيز الفقيه",
+        songs.append(Song(name:" سورة الفاتحة",
+                          albumName:"الشيخ ماهر المعيقلي",
                           artistName: "تشغيل",
-                          imageName: "فقيه",
-                          trackName: "Voice1"))
-        songs.append(Song(name: "تعليق الحرم المكي",
-                          albumName: "محمد الصبيحي",
+                          imageName: "",
+                          trackName: "001"))
+        songs.append(Song(name: "سورة البقره" ,
+                          albumName: " الشيخ ماهر المعيقلي",
                           artistName: "تشغيل",
-                          imageName: "محمد",
-                          trackName: "Voice3"))
-        songs.append(Song(name: "سيرة عطرة",
-                          albumName: "الشيخ المغامسي",
+                          imageName: "",
+                          trackName: "002"))
+        songs.append(Song(name: "سورة آل عمران",
+                          albumName:  "الشيخ ماهر المعيقلي",
                           artistName: "تشغيل",
-                          imageName: "شيخ",
-                          trackName: "Voice2"))
-        songs.append(Song(name: "قران كريم",
-                          albumName: "الشيخ علي جابر",
+                          imageName: "",
+                          trackName: "003"))
+        songs.append(Song(name: " سورة النساء ",
+                          albumName: "الشيخ ماهر المعيقلي",
                           artistName: "تشغيل",
-                          imageName: "علي جابر2",
-                          trackName: "Voice4"))
-        songs.append(Song(name: "القران الكريم",
-                          albumName: "الشيخ علي جابر",
+                          imageName: "",
+                          trackName: "004"))
+        songs.append(Song(name: "سورةالمائدة",
+                          albumName: "الشيخ ماهر المعيقلي",
                           artistName: "تشغيل",
-                          imageName: "علي جابر",
-                          trackName: "Voice5"))
+                          imageName: "",
+                          trackName: "005"))
         
-        songs.append(Song(name: "القرآن الكريم",
-                          albumName: "الشيخ سعود الشريم",
+        songs.append(Song(name: "سورة الانعام",
+                          albumName: "الشيخ ماهر المعيقلي",
                           artistName: "تشغيل",
-                          imageName: "الشريم",
-                          trackName: "Voice6"))
-        songs.append(Song(name: "تعليق الحرم المكي",
-                          albumName: "محمد الصبيحي",
+                          imageName: "",
+                          trackName: "006"))
+        songs.append(Song(name: "سورة الاعراف",
+                          albumName: "الشيخ ماهر المعيقلي",
                           artistName: "تشغيل",
-                          imageName: "محمد",
-                          trackName: "Voice3"))
-        songs.append(Song(name: "سيرة عطرة",
-                          albumName: "الشيخ المغامسي",
+                          imageName: "",
+                          trackName: "007"))
+        songs.append(Song(name: "سورة الانفال",
+                          albumName: "الشيخ ماهر المعيقلي",
                           artistName: "تشغيل",
-                          imageName: "شيخ",
-                          trackName: "Voice2"))
+                          imageName: "",
+                          trackName: "008"))
         
-        songs.append(Song(name: "القرآن الكريم",
-                          albumName: "عبدالعزيز الفقيه",
+        songs.append(Song(name: "سورة التوبة ",
+                          albumName: "الشيخ ماهر المعيقلي",
                           artistName: "تشغيل",
-                          imageName: "فقيه",
-                          trackName: "Voice1"))
-        songs.append(Song(name: "تعليق الحرم المكي",
-                          albumName: "محمد الصبيحي",
+                          imageName: "",
+                          trackName: "009"))
+        songs.append(Song(name: "سورة يونس ",
+                          albumName: "الشيخ ماهر المعيقلي",
                           artistName: "تشغيل",
-                          imageName: "محمد",
-                          trackName: "Voice3"))
-        songs.append(Song(name: "سيرة عطرة",
-                          albumName: "الشيخ المغامسي",
+                          imageName: "",
+                          trackName: "010"))
+        songs.append(Song(name: "سورة هود",
+                          albumName: "الشيخ ماهر المعيقلي",
                           artistName: "تشغيل",
-                          imageName: "شيخ",
-                          trackName: "Voice2"))
-        songs.append(Song(name: "حديث شريف",
-                          albumName: "رواه ابو هريره",
+                          imageName: "",
+                          trackName: "011"))
+        songs.append(Song(name: "سورة يوسف ",
+                          albumName: "الشيخ ماهر المعيقلي",
                           artistName: "تشغيل",
-                          imageName: "حديث",
-                          trackName: "Voice4"))
-        songs.append(Song(name: "تفسير",
-                          albumName: "الشيخ الشعرواي",
+                          imageName: "",
+                          trackName: "012"))
+        songs.append(Song(name: "سورة الرعد",
+                          albumName: "الشيخ ماهر المعيقلي",
                           artistName: "تشغيل",
-                          imageName: "تفسير",
-                          trackName: "Voice5"))
+                          imageName: "",
+                          trackName: "013"))
+        songs.append(Song(name: "سورة إبراهيم",
+                          albumName: "الشيخ ماهر المعيقلي",
+                          artistName: "تشغيل",
+                          imageName: "",
+                          trackName: "014"))
+
+        songs.append(Song(name: "سورة الحجر",
+                          albumName: "الشيخ ماهر المعيقلي",
+                          artistName: "تشغيل",
+                          imageName: "",
+                          trackName: "015"))
+
+        songs.append(Song(name: "سورة النحل",
+                          albumName: "الشيخ ماهر المعيقلي",
+                          artistName: "تشغيل",
+                          imageName: "",
+                          trackName: "016"))
+
     }
+    
+    
     
     // Table
     

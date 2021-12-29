@@ -9,7 +9,7 @@
 
 import UIKit
 
-class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSource , UICollectionViewDelegateFlowLayout, UISearchBarDelegate {
+class MaimVC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSource , UICollectionViewDelegateFlowLayout, UISearchBarDelegate {
     
     
     var searchba: Array<Item> = List
